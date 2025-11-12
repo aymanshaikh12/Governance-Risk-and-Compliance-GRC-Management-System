@@ -44,30 +44,6 @@ A comprehensive Security Compliance Management System with a focus on Risk Asses
 - **Compliance Reports**: Generate comprehensive compliance reports
 - **Gap Analysis**: Identify compliance gaps and non-conformities
 
-## Evaluation Summary
-
-### Title and Objective (2 marks)
-- Project: Governance, Risk, and Compliance (GRC) Management System
-- Objective: Provide a unified platform for risk assessment, mitigation, and compliance tracking aligned with ISO 27005 and NIST RMF while remaining extensible to additional regulatory frameworks.
-
-### Tools and Algorithms (15 marks)
-- Standard Frameworks: Node.js with Express for RESTful services, MongoDB with Mongoose for flexible compliance data modeling, and a responsive HTML/CSS/Bootstrap 5 frontend for auditor-friendly dashboards.
-- Rationale: Chosen for rapid development velocity, schema flexibility for evolving control catalogs, and native support for secure, responsive interfaces required by compliance teams.
-- Supporting Libraries: Mongoose for validation and data hooks, Chart.js for dynamic risk/compliance visualizations, validation middleware (Joi/custom) for sanitized inputs, dotenv for configuration management, nodemon for developer workflow, and helmet for hardened HTTP headers.
-- Core Algorithms: Likelihood × impact risk scoring with banded criticality levels, treatment workflow enforcement (avoid/transfer/mitigate/accept), control-to-risk mapping to drive automated gap analysis, assessment scoring that aggregates evidence into compliance percentages, and JSON import/export routines that normalize framework catalogs.
-- Data Sources: Seeded JSON datasets for ISO 27005, NIST RMF, GDPR, SOC 2, PCI DSS, etc., sample risk registers capturing likelihood/impact/treatment states, and assessment templates that simulate internal, external, and continuous-monitoring audits.
-
-### Challenges and Solutions (5 marks)
-- Harmonizing multiple compliance frameworks without schema sprawl → implemented polymorphic control schemas with framework metadata, enabling reuse across regulations.
-- Maintaining correct risk calculations during CRUD cycles → added model-level validation and automated tests (`test.js`) confirming score bands and residual-risk recomputations.
-- Presenting dense compliance information without overwhelming users → designed role-aware, responsive dashboards with filters, modals, and progressive disclosure patterns.
-
-### Other Applications (3 marks)
-- The architecture can be adapted for business continuity planning, third-party/vendor risk management, and ESG compliance by reusing risk registers, evidence repositories, and assessment modules with domain-specific datasets.
-
-### Project Scenario (5 marks)
-- Scenario: A healthcare provider discovers during an internal audit that backups holding protected health information are unencrypted, creating a HIPAA safeguard gap.
-- Response Workflow: Log the exposure as a high-risk item, map it to HIPAA and ISO 27001 controls, choose the mitigate strategy with assigned remediation owners and due dates, upload encryption policy evidence, run an internal assessment to verify control effectiveness, and monitor residual risk until encryption is confirmed—updating dashboards and compliance reports throughout.
 
 ## Technology Stack
 
@@ -161,39 +137,7 @@ A comprehensive Security Compliance Management System with a focus on Risk Asses
 6. **Generate Recommendations**: Create improvement actions
 7. **Track Progress**: Monitor recommendation implementation
 
-## API Endpoints
 
-### Risk Management
-- `GET /api/risks` - Get all risks with filtering
-- `POST /api/risks` - Create new risk
-- `GET /api/risks/:id` - Get risk by ID
-- `PUT /api/risks/:id` - Update risk
-- `DELETE /api/risks/:id` - Delete risk
-- `GET /api/risks/stats/overview` - Get risk statistics
-
-### Compliance Frameworks
-- `GET /api/frameworks` - Get all frameworks
-- `POST /api/frameworks` - Create new framework
-- `GET /api/frameworks/:id` - Get framework by ID
-- `PUT /api/frameworks/:id` - Update framework
-- `DELETE /api/frameworks/:id` - Delete framework
-- `POST /api/frameworks/initialize` - Initialize default frameworks
-
-### Assessments
-- `GET /api/assessments` - Get all assessments
-- `POST /api/assessments` - Create new assessment
-- `GET /api/assessments/:id` - Get assessment by ID
-- `PUT /api/assessments/:id` - Update assessment
-- `DELETE /api/assessments/:id` - Delete assessment
-
-### Compliance Dashboard
-- `GET /api/compliance/dashboard` - Get dashboard data
-- `GET /api/compliance/status/:frameworkId` - Get framework compliance status
-- `GET /api/compliance/trends` - Get compliance trends
-- `GET /api/compliance/gaps` - Get compliance gaps
-- `POST /api/compliance/report` - Generate compliance report
-
-## Data Models
 
 ### Risk Model
 - Basic risk information (ID, title, description, category)

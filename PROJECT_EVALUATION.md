@@ -1,6 +1,6 @@
 # GRC Compliance Management System - Project Evaluation Document
 
-## 1. Main Objective (2 Marks)
+## 1. Main Objective 
 
 ### Project Title
 **Governance, Risk, and Compliance (GRC) Management System**
@@ -22,7 +22,7 @@ To develop a comprehensive, enterprise-grade GRC Management System that enables 
 
 ---
 
-## 2. Standard Framework Used (15 Marks)
+## 2. Standard Framework Used 
 
 ### 2.1 Primary Compliance Frameworks
 
@@ -60,7 +60,7 @@ To develop a comprehensive, enterprise-grade GRC Management System that enables 
 
 ---
 
-## 3. Why These Frameworks Were Chosen (15 Marks)
+## 3. Why These Frameworks Were Chosen 
 
 ### 3.1 ISO 27005 - Primary Choice
 **Reasons:**
@@ -91,7 +91,7 @@ To develop a comprehensive, enterprise-grade GRC Management System that enables 
 
 ---
 
-## 4. Tools and Libraries (15 Marks)
+## 4. Tools and Libraries 
 
 ### 4.1 Backend Technologies
 

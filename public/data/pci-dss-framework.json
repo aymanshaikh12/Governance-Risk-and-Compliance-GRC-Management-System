@@ -1,0 +1,555 @@
+{
+  "name": "PCI DSS",
+  "version": "4.0",
+  "description": "Payment Card Industry Data Security Standard",
+  "type": "Industry Specific",
+  "status": "Active",
+  "controls": [
+    {
+      "controlId": "1.1.1",
+      "title": "A formal process for approving and testing all network connections and changes to firewall and router configurations",
+      "description": "Establish a formal process for approving and testing all network connections and changes to firewall and router configurations",
+      "category": "Network Security",
+      "priority": "Critical",
+      "requirements": [
+        "Formal approval process",
+        "Testing procedures",
+        "Change documentation"
+      ],
+      "implementationGuidance": "Implement a formal process for approving and testing all network connections and firewall/router changes.",
+      "testingProcedures": [
+        "Review approval processes",
+        "Test change procedures",
+        "Verify documentation"
+      ],
+      "evidenceTypes": [
+        "Approval procedures",
+        "Test results",
+        "Change documentation"
+      ]
+    },
+    {
+      "controlId": "1.1.2",
+      "title": "Current network diagram that identifies all connections between the cardholder data environment and other networks",
+      "description": "Maintain current network diagrams that identify all connections between the cardholder data environment and other networks",
+      "category": "Network Security",
+      "priority": "Critical",
+      "requirements": [
+        "Network diagram maintenance",
+        "Connection identification",
+        "Diagram updates"
+      ],
+      "implementationGuidance": "Maintain accurate and current network diagrams showing all connections to the cardholder data environment.",
+      "testingProcedures": [
+        "Review network diagrams",
+        "Verify connection accuracy",
+        "Check update procedures"
+      ],
+      "evidenceTypes": [
+        "Network diagrams",
+        "Connection records",
+        "Update documentation"
+      ]
+    },
+    {
+      "controlId": "1.1.3",
+      "title": "Current diagram that shows all cardholder data flows across systems and networks",
+      "description": "Maintain current diagrams that show all cardholder data flows across systems and networks",
+      "category": "Network Security",
+      "priority": "Critical",
+      "requirements": [
+        "Data flow diagrams",
+        "Flow documentation",
+        "Diagram maintenance"
+      ],
+      "implementationGuidance": "Document and maintain current data flow diagrams for all cardholder data across systems and networks.",
+      "testingProcedures": [
+        "Review data flow diagrams",
+        "Verify flow accuracy",
+        "Check maintenance procedures"
+      ],
+      "evidenceTypes": [
+        "Data flow diagrams",
+        "Flow documentation",
+        "Maintenance records"
+      ]
+    },
+    {
+      "controlId": "1.2.1",
+      "title": "Restrict inbound and outbound traffic to that which is necessary for the cardholder data environment",
+      "description": "Implement restrictions on inbound and outbound traffic to only that which is necessary for the cardholder data environment",
+      "category": "Network Security",
+      "priority": "Critical",
+      "requirements": [
+        "Traffic restrictions",
+        "Necessary traffic identification",
+        "Access control implementation"
+      ],
+      "implementationGuidance": "Implement firewall rules to restrict traffic to only what is necessary for the cardholder data environment.",
+      "testingProcedures": [
+        "Review traffic restrictions",
+        "Test access controls",
+        "Verify necessary traffic"
+      ],
+      "evidenceTypes": [
+        "Firewall rules",
+        "Access control configurations",
+        "Traffic analysis"
+      ]
+    },
+    {
+      "controlId": "1.2.2",
+      "title": "Secure and synchronize router configuration files",
+      "description": "Secure and synchronize router configuration files",
+      "category": "Network Security",
+      "priority": "High",
+      "requirements": [
+        "Configuration security",
+        "Synchronization procedures",
+        "File protection"
+      ],
+      "implementationGuidance": "Implement security measures and synchronization procedures for router configuration files.",
+      "testingProcedures": [
+        "Review configuration security",
+        "Test synchronization",
+        "Verify file protection"
+      ],
+      "evidenceTypes": [
+        "Security configurations",
+        "Synchronization procedures",
+        "Protection measures"
+      ]
+    },
+    {
+      "controlId": "1.2.3",
+      "title": "Install perimeter firewalls between all wireless networks and the cardholder data environment",
+      "description": "Install perimeter firewalls between all wireless networks and the cardholder data environment",
+      "category": "Network Security",
+      "priority": "Critical",
+      "requirements": [
+        "Perimeter firewalls",
+        "Wireless network isolation",
+        "Cardholder data protection"
+      ],
+      "implementationGuidance": "Install and configure perimeter firewalls to isolate wireless networks from the cardholder data environment.",
+      "testingProcedures": [
+        "Review firewall installation",
+        "Test network isolation",
+        "Verify protection measures"
+      ],
+      "evidenceTypes": [
+        "Firewall configurations",
+        "Isolation documentation",
+        "Protection verification"
+      ]
+    },
+    {
+      "controlId": "1.3.1",
+      "title": "Prohibit direct public access between the Internet and any system component in the cardholder data environment",
+      "description": "Prohibit direct public access between the Internet and any system component in the cardholder data environment",
+      "category": "Network Security",
+      "priority": "Critical",
+      "requirements": [
+        "Public access prohibition",
+        "Internet isolation",
+        "System component protection"
+      ],
+      "implementationGuidance": "Implement controls to prevent direct public access between the Internet and cardholder data environment components.",
+      "testingProcedures": [
+        "Review access controls",
+        "Test isolation measures",
+        "Verify protection"
+      ],
+      "evidenceTypes": [
+        "Access control configurations",
+        "Isolation documentation",
+        "Protection verification"
+      ]
+    },
+    {
+      "controlId": "1.3.2",
+      "title": "Prohibit direct public access between the Internet and any system component in the cardholder data environment",
+      "description": "Prohibit direct public access between the Internet and any system component in the cardholder data environment",
+      "category": "Network Security",
+      "priority": "Critical",
+      "requirements": [
+        "Public access prohibition",
+        "Internet isolation",
+        "System component protection"
+      ],
+      "implementationGuidance": "Implement additional controls to prevent direct public access between the Internet and cardholder data environment components.",
+      "testingProcedures": [
+        "Review additional controls",
+        "Test isolation measures",
+        "Verify protection"
+      ],
+      "evidenceTypes": [
+        "Control configurations",
+        "Isolation documentation",
+        "Protection verification"
+      ]
+    },
+    {
+      "controlId": "2.1",
+      "title": "Change Default Vendor-Supplied Passwords and Security Parameters",
+      "description": "Change default vendor-supplied passwords and security parameters",
+      "category": "System Configuration",
+      "priority": "Critical",
+      "requirements": [
+        "Default password changes",
+        "Security parameter configuration",
+        "Documentation of changes"
+      ],
+      "implementationGuidance": "Change all default passwords and security parameters before deploying systems to production.",
+      "testingProcedures": [
+        "Verify password changes",
+        "Check security parameters",
+        "Review documentation"
+      ],
+      "evidenceTypes": [
+        "Password change records",
+        "Configuration documentation",
+        "Security parameter settings"
+      ]
+    },
+    {
+      "controlId": "2.2",
+      "title": "Develop Configuration Standards for All System Components",
+      "description": "Develop configuration standards for all system components",
+      "category": "System Configuration",
+      "priority": "High",
+      "requirements": [
+        "Configuration standards development",
+        "System component coverage",
+        "Standards documentation"
+      ],
+      "implementationGuidance": "Develop and document configuration standards for all system components in the cardholder data environment.",
+      "testingProcedures": [
+        "Review configuration standards",
+        "Verify system coverage",
+        "Check documentation"
+      ],
+      "evidenceTypes": [
+        "Configuration standards",
+        "Coverage documentation",
+        "Standards implementation"
+      ]
+    },
+    {
+      "controlId": "2.3",
+      "title": "Encrypt All Non-Console Administrative Access",
+      "description": "Encrypt all non-console administrative access using strong cryptography",
+      "category": "System Configuration",
+      "priority": "High",
+      "requirements": [
+        "Administrative access encryption",
+        "Strong cryptography implementation",
+        "Non-console access protection"
+      ],
+      "implementationGuidance": "Implement strong encryption for all non-console administrative access to system components.",
+      "testingProcedures": [
+        "Review encryption implementation",
+        "Test administrative access",
+        "Verify strong cryptography"
+      ],
+      "evidenceTypes": [
+        "Encryption configurations",
+        "Access test results",
+        "Cryptography documentation"
+      ]
+    },
+    {
+      "controlId": "3.1",
+      "title": "Protect Stored Cardholder Data",
+      "description": "Protect stored cardholder data",
+      "category": "Data Protection",
+      "priority": "Critical",
+      "requirements": [
+        "Data encryption",
+        "Access controls",
+        "Data retention policies"
+      ],
+      "implementationGuidance": "Implement strong encryption and access controls to protect stored cardholder data.",
+      "testingProcedures": [
+        "Verify encryption implementation",
+        "Test access controls",
+        "Review retention policies"
+      ],
+      "evidenceTypes": [
+        "Encryption documentation",
+        "Access control configurations",
+        "Retention policy records"
+      ]
+    },
+    {
+      "controlId": "3.2",
+      "title": "Do Not Store Sensitive Authentication Data",
+      "description": "Do not store sensitive authentication data after authorization",
+      "category": "Data Protection",
+      "priority": "Critical",
+      "requirements": [
+        "Sensitive data prohibition",
+        "Authentication data handling",
+        "Authorization procedures"
+      ],
+      "implementationGuidance": "Implement controls to prevent storage of sensitive authentication data after authorization.",
+      "testingProcedures": [
+        "Review data handling procedures",
+        "Test authentication processes",
+        "Verify prohibition compliance"
+      ],
+      "evidenceTypes": [
+        "Data handling procedures",
+        "Authentication documentation",
+        "Compliance verification"
+      ]
+    },
+    {
+      "controlId": "3.3",
+      "title": "Mask PAN When Displayed",
+      "description": "Mask PAN when displayed (the first six and last four digits are the maximum number of digits to be displayed)",
+      "category": "Data Protection",
+      "priority": "High",
+      "requirements": [
+        "PAN masking implementation",
+        "Display restrictions",
+        "Masking procedures"
+      ],
+      "implementationGuidance": "Implement PAN masking to show only the first six and last four digits when displayed.",
+      "testingProcedures": [
+        "Review masking implementation",
+        "Test display restrictions",
+        "Verify masking procedures"
+      ],
+      "evidenceTypes": [
+        "Masking configurations",
+        "Display test results",
+        "Procedure documentation"
+      ]
+    },
+    {
+      "controlId": "3.4",
+      "title": "Render PAN Unreadable Anywhere It Is Stored",
+      "description": "Render PAN unreadable anywhere it is stored (including on portable digital media, backup media, and in logs)",
+      "category": "Data Protection",
+      "priority": "Critical",
+      "requirements": [
+        "PAN encryption",
+        "Storage protection",
+        "Media security"
+      ],
+      "implementationGuidance": "Implement encryption or other methods to render PAN unreadable in all storage locations.",
+      "testingProcedures": [
+        "Review encryption implementation",
+        "Test storage protection",
+        "Verify media security"
+      ],
+      "evidenceTypes": [
+        "Encryption documentation",
+        "Protection test results",
+        "Media security verification"
+      ]
+    },
+    {
+      "controlId": "4.1",
+      "title": "Use Strong Cryptography and Security Protocols",
+      "description": "Use strong cryptography and security protocols to safeguard sensitive cardholder data during transmission over open, public networks",
+      "category": "Data Protection",
+      "priority": "Critical",
+      "requirements": [
+        "Strong cryptography implementation",
+        "Security protocol usage",
+        "Transmission protection"
+      ],
+      "implementationGuidance": "Implement strong cryptography and security protocols for all cardholder data transmission over public networks.",
+      "testingProcedures": [
+        "Review cryptography implementation",
+        "Test security protocols",
+        "Verify transmission protection"
+      ],
+      "evidenceTypes": [
+        "Cryptography documentation",
+        "Protocol configurations",
+        "Transmission test results"
+      ]
+    },
+    {
+      "controlId": "4.2",
+      "title": "Never Send Unencrypted PANs by End-User Messaging Technologies",
+      "description": "Never send unencrypted PANs by end-user messaging technologies",
+      "category": "Data Protection",
+      "priority": "Critical",
+      "requirements": [
+        "PAN encryption requirements",
+        "Messaging technology restrictions",
+        "End-user communication controls"
+      ],
+      "implementationGuidance": "Implement controls to prevent transmission of unencrypted PANs through end-user messaging technologies.",
+      "testingProcedures": [
+        "Review encryption requirements",
+        "Test messaging restrictions",
+        "Verify communication controls"
+      ],
+      "evidenceTypes": [
+        "Encryption requirements",
+        "Restriction configurations",
+        "Control verification"
+      ]
+    },
+    {
+      "controlId": "5.1",
+      "title": "Deploy Anti-Virus Software on All Systems",
+      "description": "Deploy anti-virus software on all systems commonly affected by malicious software",
+      "category": "System Security",
+      "priority": "High",
+      "requirements": [
+        "Anti-virus deployment",
+        "System coverage",
+        "Malware protection"
+      ],
+      "implementationGuidance": "Deploy and maintain anti-virus software on all systems that could be affected by malicious software.",
+      "testingProcedures": [
+        "Review anti-virus deployment",
+        "Verify system coverage",
+        "Test malware protection"
+      ],
+      "evidenceTypes": [
+        "Deployment documentation",
+        "Coverage verification",
+        "Protection test results"
+      ]
+    },
+    {
+      "controlId": "5.2",
+      "title": "Ensure All Anti-Virus Programs Are Capable of Detecting, Removing, and Protecting Against All Known Types of Malicious Software",
+      "description": "Ensure all anti-virus programs are capable of detecting, removing, and protecting against all known types of malicious software",
+      "category": "System Security",
+      "priority": "High",
+      "requirements": [
+        "Anti-virus capabilities",
+        "Malware detection",
+        "Protection effectiveness"
+      ],
+      "implementationGuidance": "Ensure anti-virus software has comprehensive capabilities for detecting, removing, and protecting against malicious software.",
+      "testingProcedures": [
+        "Review anti-virus capabilities",
+        "Test malware detection",
+        "Verify protection effectiveness"
+      ],
+      "evidenceTypes": [
+        "Capability documentation",
+        "Detection test results",
+        "Effectiveness verification"
+      ]
+    },
+    {
+      "controlId": "5.3",
+      "title": "Ensure Anti-Virus Mechanisms Are Actively Running",
+      "description": "Ensure anti-virus mechanisms are actively running and cannot be disabled or altered by users",
+      "category": "System Security",
+      "priority": "High",
+      "requirements": [
+        "Active anti-virus operation",
+        "User restriction implementation",
+        "Alteration prevention"
+      ],
+      "implementationGuidance": "Implement controls to ensure anti-virus mechanisms are always active and cannot be disabled by users.",
+      "testingProcedures": [
+        "Review active operation",
+        "Test user restrictions",
+        "Verify alteration prevention"
+      ],
+      "evidenceTypes": [
+        "Operation documentation",
+        "Restriction configurations",
+        "Prevention verification"
+      ]
+    },
+    {
+      "controlId": "6.1",
+      "title": "Establish a Process to Identify Security Vulnerabilities",
+      "description": "Establish a process to identify security vulnerabilities, using reputable outside sources for security vulnerability information",
+      "category": "Vulnerability Management",
+      "priority": "High",
+      "requirements": [
+        "Vulnerability identification process",
+        "External source utilization",
+        "Security information gathering"
+      ],
+      "implementationGuidance": "Establish a formal process for identifying security vulnerabilities using reputable external sources.",
+      "testingProcedures": [
+        "Review identification process",
+        "Verify external source usage",
+        "Check information gathering"
+      ],
+      "evidenceTypes": [
+        "Process documentation",
+        "Source utilization records",
+        "Information gathering logs"
+      ]
+    },
+    {
+      "controlId": "6.2",
+      "title": "Ensure That All System Components and Software Are Protected from Known Vulnerabilities",
+      "description": "Ensure that all system components and software are protected from known vulnerabilities by installing applicable vendor-supplied security patches",
+      "category": "Vulnerability Management",
+      "priority": "Critical",
+      "requirements": [
+        "Vulnerability protection",
+        "Security patch installation",
+        "System component coverage"
+      ],
+      "implementationGuidance": "Implement a process to ensure all system components are protected from known vulnerabilities through security patches.",
+      "testingProcedures": [
+        "Review protection measures",
+        "Test patch installation",
+        "Verify system coverage"
+      ],
+      "evidenceTypes": [
+        "Protection documentation",
+        "Patch installation records",
+        "Coverage verification"
+      ]
+    },
+    {
+      "controlId": "6.3",
+      "title": "Develop Secure Applications and Systems",
+      "description": "Develop secure applications and systems in accordance with PCI DSS and industry best practices",
+      "category": "Secure Development",
+      "priority": "High",
+      "requirements": [
+        "Secure development practices",
+        "PCI DSS compliance",
+        "Industry best practices"
+      ],
+      "implementationGuidance": "Implement secure development practices that comply with PCI DSS and industry best practices.",
+      "testingProcedures": [
+        "Review development practices",
+        "Test PCI DSS compliance",
+        "Verify best practices"
+      ],
+      "evidenceTypes": [
+        "Development practices documentation",
+        "Compliance verification",
+        "Best practices implementation"
+      ]
+    }
+  ],
+  "assessmentCriteria": {
+    "frequency": "Annually",
+    "methodology": "PCI DSS assessment",
+    "scoringMethod": "Pass/Fail",
+    "thresholds": {
+      "pass": 100,
+      "warning": 95,
+      "fail": 90
+    }
+  },
+  "publisher": "PCI Security Standards Council",
+  "website": "https://www.pcisecuritystandards.org/",
+  "lastUpdated": "2022-03-31",
+  "effectiveDate": "2022-03-31",
+  "tags": ["PCI DSS", "Payment Card", "Data Security"],
+  "industry": ["Financial Services", "Retail", "E-commerce"],
+  "region": ["Global"]
+}

@@ -1,0 +1,141 @@
+{
+  "name": "OWASP Application Security Verification Standard",
+  "version": "4.0.3",
+  "description": "OWASP Application Security Verification Standard (ASVS) provides a basis for testing web application technical security controls",
+  "type": "Cybersecurity",
+  "status": "Active",
+  "controls": [
+    {
+      "controlId": "V1.1",
+      "title": "Verify that all pages and resources require authentication except those specifically intended to be public",
+      "description": "All pages and resources require authentication except those specifically intended to be public",
+      "category": "Authentication",
+      "priority": "High",
+      "requirements": [
+        "Authentication required for all protected resources",
+        "Public resources clearly identified",
+        "Access control implementation"
+      ],
+      "implementationGuidance": "Implement proper authentication controls for all protected resources while allowing public access to intended public resources.",
+      "testingProcedures": [
+        "Test access to protected resources without authentication",
+        "Verify public resources are accessible",
+        "Check authentication implementation"
+      ],
+      "evidenceTypes": [
+        "Authentication configuration",
+        "Access control tests",
+        "Public resource documentation"
+      ]
+    },
+    {
+      "controlId": "V1.2",
+      "title": "Verify that all password fields allow or encourage the use of long passphrases",
+      "description": "All password fields allow or encourage the use of long passphrases",
+      "category": "Authentication",
+      "priority": "High",
+      "requirements": [
+        "Long passphrase support",
+        "Password policy enforcement",
+        "User guidance for strong passwords"
+      ],
+      "implementationGuidance": "Implement password fields that support and encourage the use of long passphrases for better security.",
+      "testingProcedures": [
+        "Test password field length limits",
+        "Verify passphrase acceptance",
+        "Check password policy enforcement"
+      ],
+      "evidenceTypes": [
+        "Password field configuration",
+        "Password policy documentation",
+        "User interface screenshots"
+      ]
+    },
+    {
+      "controlId": "V2.1",
+      "title": "Verify that all authentication decisions are logged",
+      "description": "All authentication decisions are logged",
+      "category": "Logging and Monitoring",
+      "priority": "High",
+      "requirements": [
+        "Authentication event logging",
+        "Log integrity protection",
+        "Log analysis capabilities"
+      ],
+      "implementationGuidance": "Implement comprehensive logging of all authentication decisions for security monitoring and incident response.",
+      "testingProcedures": [
+        "Review authentication logs",
+        "Verify log completeness",
+        "Test log analysis tools"
+      ],
+      "evidenceTypes": [
+        "Authentication log samples",
+        "Logging configuration",
+        "Log analysis reports"
+      ]
+    },
+    {
+      "controlId": "V3.1",
+      "title": "Verify that all authentication controls are implemented on the server side",
+      "description": "All authentication controls are implemented on the server side",
+      "category": "Architecture",
+      "priority": "Critical",
+      "requirements": [
+        "Server-side authentication",
+        "Client-side validation only",
+        "Security control implementation"
+      ],
+      "implementationGuidance": "Ensure all authentication controls are implemented on the server side for security.",
+      "testingProcedures": [
+        "Review server-side code",
+        "Test client-side bypass attempts",
+        "Verify control implementation"
+      ],
+      "evidenceTypes": [
+        "Server-side code review",
+        "Security test results",
+        "Architecture documentation"
+      ]
+    },
+    {
+      "controlId": "V4.1",
+      "title": "Verify that all authentication controls fail securely",
+      "description": "All authentication controls fail securely",
+      "category": "Error Handling",
+      "priority": "High",
+      "requirements": [
+        "Secure failure modes",
+        "Error message handling",
+        "Exception management"
+      ],
+      "implementationGuidance": "Implement authentication controls that fail securely without exposing sensitive information.",
+      "testingProcedures": [
+        "Test failure scenarios",
+        "Review error messages",
+        "Verify secure defaults"
+      ],
+      "evidenceTypes": [
+        "Error handling documentation",
+        "Failure test results",
+        "Security review reports"
+      ]
+    }
+  ],
+  "assessmentCriteria": {
+    "frequency": "Annually",
+    "methodology": "OWASP ASVS assessment",
+    "scoringMethod": "Pass/Fail",
+    "thresholds": {
+      "pass": 100,
+      "warning": 90,
+      "fail": 80
+    }
+  },
+  "publisher": "OWASP Foundation",
+  "website": "https://owasp.org/www-project-application-security-verification-standard/",
+  "lastUpdated": "2021-03-01",
+  "effectiveDate": "2021-03-01",
+  "tags": ["OWASP", "Application Security", "Web Security"],
+  "industry": ["Technology", "Web Development", "Software Development"],
+  "region": ["Global"]
+}

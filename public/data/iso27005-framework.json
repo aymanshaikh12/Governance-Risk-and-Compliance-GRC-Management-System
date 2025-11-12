@@ -1,0 +1,416 @@
+{
+  "name": "ISO 27005",
+  "version": "2018",
+  "description": "Information security risk management - Guidelines for information security risk management",
+  "type": "Cybersecurity",
+  "status": "Active",
+  "controls": [
+    {
+      "controlId": "A.5.1.1",
+      "title": "Information Security Policies",
+      "description": "Management direction and support for information security",
+      "category": "Governance",
+      "priority": "High",
+      "requirements": [
+        "Documented information security policies",
+        "Regular policy review and updates",
+        "Policy communication to all stakeholders",
+        "Policy approval by management"
+      ],
+      "implementationGuidance": "Establish a comprehensive information security policy framework that covers all aspects of the organization's information security management system and is regularly reviewed and updated.",
+      "testingProcedures": [
+        "Review policy documentation completeness",
+        "Verify policy distribution and communication",
+        "Check policy review schedules and updates",
+        "Validate management approval processes"
+      ],
+      "evidenceTypes": [
+        "Information security policy documents",
+        "Policy distribution records",
+        "Policy review schedules and minutes",
+        "Management approval documentation"
+      ]
+    },
+    {
+      "controlId": "A.5.1.2",
+      "title": "Review of Information Security Policies",
+      "description": "Information security policies shall be reviewed at planned intervals or if significant changes occur",
+      "category": "Governance",
+      "priority": "High",
+      "requirements": [
+        "Regular policy reviews at planned intervals",
+        "Review procedures for significant changes",
+        "Documentation of review processes",
+        "Implementation of review recommendations"
+      ],
+      "implementationGuidance": "Implement a formal process for reviewing information security policies at regular intervals and when significant changes occur in the organization or its environment.",
+      "testingProcedures": [
+        "Review policy review schedules",
+        "Verify change management processes",
+        "Check review documentation and minutes",
+        "Validate implementation of recommendations"
+      ],
+      "evidenceTypes": [
+        "Policy review schedules",
+        "Change management procedures",
+        "Review meeting minutes",
+        "Recommendation implementation records"
+      ]
+    },
+    {
+      "controlId": "A.6.1.1",
+      "title": "Information Security Roles and Responsibilities",
+      "description": "All information security responsibilities shall be defined and allocated",
+      "category": "Organization",
+      "priority": "High",
+      "requirements": [
+        "Clear role definitions for information security",
+        "Responsibility allocation and assignment",
+        "Regular role reviews and updates",
+        "Communication of roles and responsibilities"
+      ],
+      "implementationGuidance": "Define and document information security roles and responsibilities for all personnel, including management, users, and service providers, and ensure they are clearly communicated.",
+      "testingProcedures": [
+        "Review role definition documentation",
+        "Verify responsibility allocation matrices",
+        "Check role review processes",
+        "Validate communication of responsibilities"
+      ],
+      "evidenceTypes": [
+        "Job descriptions with security responsibilities",
+        "Responsibility allocation matrices",
+        "Role review documentation",
+        "Communication records"
+      ]
+    },
+    {
+      "controlId": "A.6.1.2",
+      "title": "Segregation of Duties",
+      "description": "Conflicting duties and areas of responsibility shall be segregated",
+      "category": "Organization",
+      "priority": "Medium",
+      "requirements": [
+        "Identification of conflicting duties",
+        "Segregation of duties policies",
+        "Implementation of segregation controls",
+        "Regular review of duty assignments"
+      ],
+      "implementationGuidance": "Implement segregation of duties to prevent conflicts of interest and reduce the risk of fraud, error, or unauthorized access to information systems.",
+      "testingProcedures": [
+        "Review segregation of duties policies",
+        "Verify duty assignment matrices",
+        "Check segregation implementation",
+        "Validate regular reviews"
+      ],
+      "evidenceTypes": [
+        "Segregation of duties policies",
+        "Duty assignment matrices",
+        "Implementation documentation",
+        "Review records"
+      ]
+    },
+    {
+      "controlId": "A.8.1.1",
+      "title": "Inventory of Assets",
+      "description": "Assets associated with information and information processing facilities shall be identified",
+      "category": "Asset Management",
+      "priority": "Medium",
+      "requirements": [
+        "Complete asset inventory maintenance",
+        "Asset ownership assignment",
+        "Asset classification and labeling",
+        "Regular inventory updates"
+      ],
+      "implementationGuidance": "Maintain an inventory of all information assets and assign ownership responsibilities to ensure proper protection and management.",
+      "testingProcedures": [
+        "Verify asset inventory completeness",
+        "Check ownership assignments",
+        "Review classification procedures",
+        "Validate inventory update processes"
+      ],
+      "evidenceTypes": [
+        "Asset inventory databases",
+        "Ownership assignment records",
+        "Asset classification schemes",
+        "Inventory update procedures"
+      ]
+    },
+    {
+      "controlId": "A.8.1.2",
+      "title": "Ownership of Assets",
+      "description": "Assets maintained in the inventory shall be owned",
+      "category": "Asset Management",
+      "priority": "Medium",
+      "requirements": [
+        "Clear asset ownership assignment",
+        "Ownership documentation and records",
+        "Ownership review procedures",
+        "Transfer of ownership processes"
+      ],
+      "implementationGuidance": "Assign clear ownership for all assets in the inventory and maintain ownership documentation to ensure accountability and proper management.",
+      "testingProcedures": [
+        "Verify ownership assignments",
+        "Check ownership documentation",
+        "Review ownership procedures",
+        "Validate transfer processes"
+      ],
+      "evidenceTypes": [
+        "Asset ownership assignments",
+        "Ownership documentation",
+        "Ownership review procedures",
+        "Transfer documentation"
+      ]
+    },
+    {
+      "controlId": "A.8.1.3",
+      "title": "Acceptable Use of Assets",
+      "description": "Rules for the acceptable use of information and of assets associated with information and information processing facilities shall be identified, documented, and implemented",
+      "category": "Asset Management",
+      "priority": "High",
+      "requirements": [
+        "Acceptable use policies for information",
+        "Acceptable use policies for assets",
+        "Policy documentation and communication",
+        "Policy implementation and enforcement"
+      ],
+      "implementationGuidance": "Develop and implement clear rules for the acceptable use of information assets to ensure proper usage and prevent misuse.",
+      "testingProcedures": [
+        "Review acceptable use policies",
+        "Verify policy documentation",
+        "Check policy communication",
+        "Validate implementation and enforcement"
+      ],
+      "evidenceTypes": [
+        "Acceptable use policies",
+        "Policy documentation",
+        "Communication records",
+        "Enforcement procedures"
+      ]
+    },
+    {
+      "controlId": "A.8.1.4",
+      "title": "Return of Assets",
+      "description": "All employees and external party users shall return all of the organization's assets in their possession upon termination of their employment, contract, or agreement",
+      "category": "Asset Management",
+      "priority": "Medium",
+      "requirements": [
+        "Asset return procedures",
+        "Termination processes",
+        "Asset recovery procedures",
+        "Return verification processes"
+      ],
+      "implementationGuidance": "Implement procedures to ensure all organizational assets are returned upon termination of employment or contracts to prevent loss or unauthorized access.",
+      "testingProcedures": [
+        "Review return procedures",
+        "Verify termination processes",
+        "Check recovery procedures",
+        "Validate verification processes"
+      ],
+      "evidenceTypes": [
+        "Asset return procedures",
+        "Termination checklists",
+        "Recovery documentation",
+        "Verification records"
+      ]
+    },
+    {
+      "controlId": "A.9.1.1",
+      "title": "Access Control Policy",
+      "description": "Access control policy shall be established, documented, and reviewed",
+      "category": "Access Control",
+      "priority": "High",
+      "requirements": [
+        "Documented access control policy",
+        "Regular policy reviews",
+        "Policy implementation procedures",
+        "Policy communication and training"
+      ],
+      "implementationGuidance": "Develop and maintain access control policies that define user access rights and restrictions based on business requirements and security considerations.",
+      "testingProcedures": [
+        "Review access control policies",
+        "Verify policy implementation",
+        "Check review procedures",
+        "Validate communication and training"
+      ],
+      "evidenceTypes": [
+        "Access control policies",
+        "Implementation procedures",
+        "Review documentation",
+        "Training records"
+      ]
+    },
+    {
+      "controlId": "A.9.1.2",
+      "title": "Access to Networks and Network Services",
+      "description": "Users shall only be provided with access to the network and network services that they have been specifically authorized to use",
+      "category": "Access Control",
+      "priority": "High",
+      "requirements": [
+        "Network access authorization procedures",
+        "Service access controls",
+        "Access monitoring and logging",
+        "Regular access reviews"
+      ],
+      "implementationGuidance": "Implement controls to ensure users only have access to authorized network services based on their job requirements and business needs.",
+      "testingProcedures": [
+        "Review access authorizations",
+        "Test access controls",
+        "Verify monitoring systems",
+        "Check access review processes"
+      ],
+      "evidenceTypes": [
+        "Access authorization records",
+        "Control configurations",
+        "Monitoring reports",
+        "Access review documentation"
+      ]
+    },
+    {
+      "controlId": "A.10.1.1",
+      "title": "Cryptographic Controls",
+      "description": "Appropriate use of cryptographic controls shall be ensured",
+      "category": "Cryptography",
+      "priority": "Medium",
+      "requirements": [
+        "Cryptographic policy development",
+        "Key management procedures",
+        "Cryptographic controls implementation",
+        "Regular cryptographic reviews"
+      ],
+      "implementationGuidance": "Implement appropriate cryptographic controls to protect information confidentiality, integrity, and authenticity based on risk assessment and business requirements.",
+      "testingProcedures": [
+        "Review cryptographic policies",
+        "Verify key management procedures",
+        "Check implementation",
+        "Validate review processes"
+      ],
+      "evidenceTypes": [
+        "Cryptographic policies",
+        "Key management procedures",
+        "Implementation documentation",
+        "Review reports"
+      ]
+    },
+    {
+      "controlId": "A.10.1.2",
+      "title": "Key Management",
+      "description": "A policy on the use, protection, and lifetime of cryptographic keys shall be developed and implemented",
+      "category": "Cryptography",
+      "priority": "High",
+      "requirements": [
+        "Key management policy development",
+        "Key protection procedures",
+        "Key lifecycle management",
+        "Key recovery procedures"
+      ],
+      "implementationGuidance": "Develop and implement comprehensive key management policies and procedures to ensure the secure generation, distribution, storage, and destruction of cryptographic keys.",
+      "testingProcedures": [
+        "Review key management policies",
+        "Verify key protection procedures",
+        "Check lifecycle management",
+        "Validate recovery procedures"
+      ],
+      "evidenceTypes": [
+        "Key management policies",
+        "Protection procedures",
+        "Lifecycle documentation",
+        "Recovery procedures"
+      ]
+    },
+    {
+      "controlId": "A.11.1.1",
+      "title": "Physical and Environmental Security",
+      "description": "Physical and environmental security controls shall be implemented",
+      "category": "Physical Security",
+      "priority": "High",
+      "requirements": [
+        "Physical security controls implementation",
+        "Environmental controls",
+        "Access control systems",
+        "Monitoring and surveillance"
+      ],
+      "implementationGuidance": "Implement appropriate physical and environmental security controls to protect information processing facilities and equipment from unauthorized access, damage, and interference.",
+      "testingProcedures": [
+        "Review physical security controls",
+        "Verify environmental controls",
+        "Check access control systems",
+        "Validate monitoring systems"
+      ],
+      "evidenceTypes": [
+        "Physical security documentation",
+        "Environmental control records",
+        "Access control configurations",
+        "Monitoring reports"
+      ]
+    },
+    {
+      "controlId": "A.12.1.1",
+      "title": "Documented Operating Procedures",
+      "description": "Operating procedures shall be documented and made available to all users who need them",
+      "category": "Operations",
+      "priority": "Medium",
+      "requirements": [
+        "Operating procedures documentation",
+        "Procedure distribution and availability",
+        "Regular procedure updates",
+        "User training and awareness"
+      ],
+      "implementationGuidance": "Develop and maintain documented operating procedures for all information processing facilities and ensure they are available to all users who need them.",
+      "testingProcedures": [
+        "Review procedure documentation",
+        "Verify distribution processes",
+        "Check update procedures",
+        "Validate training programs"
+      ],
+      "evidenceTypes": [
+        "Operating procedure documents",
+        "Distribution records",
+        "Update procedures",
+        "Training documentation"
+      ]
+    },
+    {
+      "controlId": "A.13.1.1",
+      "title": "Network Security Management",
+      "description": "Networks shall be managed and controlled to protect information in systems and applications",
+      "category": "Network Security",
+      "priority": "High",
+      "requirements": [
+        "Network security policies",
+        "Network monitoring and control",
+        "Network access controls",
+        "Network security reviews"
+      ],
+      "implementationGuidance": "Implement comprehensive network security management to protect information in systems and applications from unauthorized access and threats.",
+      "testingProcedures": [
+        "Review network security policies",
+        "Verify monitoring systems",
+        "Check access controls",
+        "Validate review processes"
+      ],
+      "evidenceTypes": [
+        "Network security policies",
+        "Monitoring configurations",
+        "Access control records",
+        "Review documentation"
+      ]
+    }
+  ],
+  "assessmentCriteria": {
+    "frequency": "Annually",
+    "methodology": "ISO 27005 risk-based assessment",
+    "scoringMethod": "Weighted Score",
+    "thresholds": {
+      "pass": 80,
+      "warning": 60,
+      "fail": 40
+    }
+  },
+  "publisher": "International Organization for Standardization",
+  "website": "https://www.iso.org/standard/27005",
+  "lastUpdated": "2018-06-01",
+  "effectiveDate": "2018-06-01",
+  "tags": ["ISO 27005", "Risk Management", "Information Security"],
+  "industry": ["All Industries"],
+  "region": ["Global"]
+}

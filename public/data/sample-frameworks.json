@@ -1,0 +1,407 @@
+{
+  "frameworks": [
+    {
+      "name": "ISO 27001",
+      "version": "2022",
+      "description": "Information security management systems - Requirements",
+      "type": "Cybersecurity",
+      "status": "Active",
+      "controls": [
+        {
+          "controlId": "A.5.1.1",
+          "title": "Information Security Policies",
+          "description": "Management direction and support for information security",
+          "category": "Governance",
+          "priority": "High",
+          "requirements": [
+            "Documented information security policies",
+            "Regular policy review and updates",
+            "Policy communication to all stakeholders"
+          ],
+          "implementationGuidance": "Establish a comprehensive information security policy framework that covers all aspects of the organization's information security management system.",
+          "testingProcedures": [
+            "Review policy documentation",
+            "Verify policy distribution",
+            "Check policy update procedures"
+          ],
+          "evidenceTypes": [
+            "Policy documents",
+            "Distribution records",
+            "Review schedules"
+          ]
+        },
+        {
+          "controlId": "A.6.1.1",
+          "title": "Information Security Roles and Responsibilities",
+          "description": "All information security responsibilities shall be defined and allocated",
+          "category": "Organization",
+          "priority": "High",
+          "requirements": [
+            "Clear role definitions",
+            "Responsibility allocation",
+            "Regular role reviews"
+          ],
+          "implementationGuidance": "Define and document information security roles and responsibilities for all personnel, including management, users, and service providers.",
+          "testingProcedures": [
+            "Review role definitions",
+            "Verify responsibility allocation",
+            "Check role review processes"
+          ],
+          "evidenceTypes": [
+            "Job descriptions",
+            "Responsibility matrices",
+            "Review documentation"
+          ]
+        },
+        {
+          "controlId": "A.8.1.1",
+          "title": "Inventory of Assets",
+          "description": "Assets associated with information and information processing facilities shall be identified",
+          "category": "Asset Management",
+          "priority": "Medium",
+          "requirements": [
+            "Asset inventory maintenance",
+            "Asset ownership assignment",
+            "Asset classification"
+          ],
+          "implementationGuidance": "Maintain an inventory of all information assets and assign ownership responsibilities.",
+          "testingProcedures": [
+            "Verify asset inventory completeness",
+            "Check ownership assignments",
+            "Review classification procedures"
+          ],
+          "evidenceTypes": [
+            "Asset inventories",
+            "Ownership records",
+            "Classification schemes"
+          ]
+        },
+        {
+          "controlId": "A.9.1.1",
+          "title": "Access Control Policy",
+          "description": "Access control policy shall be established, documented, and reviewed",
+          "category": "Access Control",
+          "priority": "High",
+          "requirements": [
+            "Documented access control policy",
+            "Regular policy reviews",
+            "Policy implementation"
+          ],
+          "implementationGuidance": "Develop and maintain access control policies that define user access rights and restrictions.",
+          "testingProcedures": [
+            "Review access control policies",
+            "Verify policy implementation",
+            "Check review procedures"
+          ],
+          "evidenceTypes": [
+            "Access control policies",
+            "Implementation records",
+            "Review documentation"
+          ]
+        },
+        {
+          "controlId": "A.10.1.1",
+          "title": "Cryptographic Controls",
+          "description": "Appropriate use of cryptographic controls shall be ensured",
+          "category": "Cryptography",
+          "priority": "Medium",
+          "requirements": [
+            "Cryptographic policy",
+            "Key management procedures",
+            "Cryptographic controls implementation"
+          ],
+          "implementationGuidance": "Implement appropriate cryptographic controls to protect information confidentiality, integrity, and authenticity.",
+          "testingProcedures": [
+            "Review cryptographic policies",
+            "Verify key management",
+            "Check implementation"
+          ],
+          "evidenceTypes": [
+            "Cryptographic policies",
+            "Key management records",
+            "Implementation documentation"
+          ]
+        }
+      ],
+      "assessmentCriteria": {
+        "frequency": "Annually",
+        "methodology": "Risk-based assessment",
+        "scoringMethod": "Weighted Score",
+        "thresholds": {
+          "pass": 80,
+          "warning": 60,
+          "fail": 40
+        }
+      },
+      "publisher": "International Organization for Standardization",
+      "website": "https://www.iso.org/standard/27001",
+      "lastUpdated": "2022-10-25",
+      "effectiveDate": "2022-10-25",
+      "tags": ["ISO", "Information Security", "Management System"],
+      "industry": ["All Industries"],
+      "region": ["Global"]
+    },
+    {
+      "name": "SOC 2 Type II",
+      "version": "2017",
+      "description": "Service Organization Control 2 - Trust Services Criteria",
+      "type": "Operational",
+      "status": "Active",
+      "controls": [
+        {
+          "controlId": "CC6.1",
+          "title": "Logical and Physical Access Security",
+          "description": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives",
+          "category": "Access Control",
+          "priority": "High",
+          "requirements": [
+            "Logical access controls",
+            "Physical access controls",
+            "Access monitoring and logging"
+          ],
+          "implementationGuidance": "Implement comprehensive access controls to protect information assets from unauthorized access.",
+          "testingProcedures": [
+            "Review access control configurations",
+            "Test access restrictions",
+            "Verify monitoring systems"
+          ],
+          "evidenceTypes": [
+            "Access control configurations",
+            "Test results",
+            "Monitoring reports"
+          ]
+        },
+        {
+          "controlId": "CC6.2",
+          "title": "Prior to Issuing System Credentials and Granting System Access",
+          "description": "The entity registers and authorizes new internal and external users before granting access to information assets",
+          "category": "Access Control",
+          "priority": "High",
+          "requirements": [
+            "User registration procedures",
+            "Authorization processes",
+            "Access provisioning"
+          ],
+          "implementationGuidance": "Establish formal procedures for user registration and authorization before granting system access.",
+          "testingProcedures": [
+            "Review registration procedures",
+            "Test authorization processes",
+            "Verify access provisioning"
+          ],
+          "evidenceTypes": [
+            "Registration procedures",
+            "Authorization records",
+            "Provisioning documentation"
+          ]
+        },
+        {
+          "controlId": "CC6.3",
+          "title": "The Entity Authorizes, Modifies, or Removes Access to Data, Software, and Hardware",
+          "description": "The entity authorizes, modifies, or removes access to data, software, and hardware to meet the entity's objectives",
+          "category": "Access Control",
+          "priority": "High",
+          "requirements": [
+            "Access authorization procedures",
+            "Access modification processes",
+            "Access removal procedures"
+          ],
+          "implementationGuidance": "Implement formal procedures for authorizing, modifying, and removing access to information assets.",
+          "testingProcedures": [
+            "Review authorization procedures",
+            "Test modification processes",
+            "Verify removal procedures"
+          ],
+          "evidenceTypes": [
+            "Authorization procedures",
+            "Modification records",
+            "Removal documentation"
+          ]
+        }
+      ],
+      "assessmentCriteria": {
+        "frequency": "Annually",
+        "methodology": "SOC 2 examination",
+        "scoringMethod": "Pass/Fail",
+        "thresholds": {
+          "pass": 100,
+          "warning": 90,
+          "fail": 80
+        }
+      },
+      "publisher": "AICPA",
+      "website": "https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report",
+      "lastUpdated": "2017-04-15",
+      "effectiveDate": "2017-04-15",
+      "tags": ["SOC 2", "Service Organization", "Trust Services"],
+      "industry": ["Technology", "Cloud Services", "SaaS"],
+      "region": ["United States"]
+    },
+    {
+      "name": "PCI DSS",
+      "version": "4.0",
+      "description": "Payment Card Industry Data Security Standard",
+      "type": "Industry Specific",
+      "status": "Active",
+      "controls": [
+        {
+          "controlId": "1.1.1",
+          "title": "A formal process for approving and testing all network connections and changes to firewall and router configurations",
+          "description": "Establish a formal process for approving and testing all network connections and changes to firewall and router configurations",
+          "category": "Network Security",
+          "priority": "Critical",
+          "requirements": [
+            "Formal approval process",
+            "Testing procedures",
+            "Change documentation"
+          ],
+          "implementationGuidance": "Implement a formal process for approving and testing all network connections and firewall/router changes.",
+          "testingProcedures": [
+            "Review approval processes",
+            "Test change procedures",
+            "Verify documentation"
+          ],
+          "evidenceTypes": [
+            "Approval procedures",
+            "Test results",
+            "Change documentation"
+          ]
+        },
+        {
+          "controlId": "2.1",
+          "title": "Change Default Vendor-Supplied Passwords and Security Parameters",
+          "description": "Change default vendor-supplied passwords and security parameters",
+          "category": "System Configuration",
+          "priority": "Critical",
+          "requirements": [
+            "Default password changes",
+            "Security parameter configuration",
+            "Documentation of changes"
+          ],
+          "implementationGuidance": "Change all default passwords and security parameters before deploying systems to production.",
+          "testingProcedures": [
+            "Verify password changes",
+            "Check security parameters",
+            "Review documentation"
+          ],
+          "evidenceTypes": [
+            "Password change records",
+            "Configuration documentation",
+            "Security parameter settings"
+          ]
+        },
+        {
+          "controlId": "3.1",
+          "title": "Protect Stored Cardholder Data",
+          "description": "Protect stored cardholder data",
+          "category": "Data Protection",
+          "priority": "Critical",
+          "requirements": [
+            "Data encryption",
+            "Access controls",
+            "Data retention policies"
+          ],
+          "implementationGuidance": "Implement strong encryption and access controls to protect stored cardholder data.",
+          "testingProcedures": [
+            "Verify encryption implementation",
+            "Test access controls",
+            "Review retention policies"
+          ],
+          "evidenceTypes": [
+            "Encryption documentation",
+            "Access control configurations",
+            "Retention policy records"
+          ]
+        }
+      ],
+      "assessmentCriteria": {
+        "frequency": "Annually",
+        "methodology": "PCI DSS assessment",
+        "scoringMethod": "Pass/Fail",
+        "thresholds": {
+          "pass": 100,
+          "warning": 95,
+          "fail": 90
+        }
+      },
+      "publisher": "PCI Security Standards Council",
+      "website": "https://www.pcisecuritystandards.org/",
+      "lastUpdated": "2022-03-31",
+      "effectiveDate": "2022-03-31",
+      "tags": ["PCI DSS", "Payment Card", "Data Security"],
+      "industry": ["Financial Services", "Retail", "E-commerce"],
+      "region": ["Global"]
+    },
+    {
+      "name": "HIPAA",
+      "version": "2021",
+      "description": "Health Insurance Portability and Accountability Act",
+      "type": "Data Protection",
+      "status": "Active",
+      "controls": [
+        {
+          "controlId": "164.308(a)(1)",
+          "title": "Security Management Process",
+          "description": "Implement policies and procedures to prevent, detect, contain, and correct security violations",
+          "category": "Administrative Safeguards",
+          "priority": "High",
+          "requirements": [
+            "Security policies and procedures",
+            "Risk assessment processes",
+            "Security incident procedures"
+          ],
+          "implementationGuidance": "Develop and implement comprehensive security management processes to protect ePHI.",
+          "testingProcedures": [
+            "Review security policies",
+            "Verify risk assessment processes",
+            "Test incident procedures"
+          ],
+          "evidenceTypes": [
+            "Security policies",
+            "Risk assessment reports",
+            "Incident response procedures"
+          ]
+        },
+        {
+          "controlId": "164.312(a)(1)",
+          "title": "Access Control",
+          "description": "Implement technical policies and procedures for electronic information systems that maintain ePHI to allow access only to those persons or software programs that have been granted access rights",
+          "category": "Technical Safeguards",
+          "priority": "High",
+          "requirements": [
+            "User authentication",
+            "Access authorization",
+            "Access monitoring"
+          ],
+          "implementationGuidance": "Implement technical access controls to ensure only authorized users can access ePHI.",
+          "testingProcedures": [
+            "Test authentication systems",
+            "Verify authorization processes",
+            "Check access monitoring"
+          ],
+          "evidenceTypes": [
+            "Authentication configurations",
+            "Authorization records",
+            "Access logs"
+          ]
+        }
+      ],
+      "assessmentCriteria": {
+        "frequency": "Annually",
+        "methodology": "HIPAA compliance assessment",
+        "scoringMethod": "Pass/Fail",
+        "thresholds": {
+          "pass": 100,
+          "warning": 95,
+          "fail": 90
+        }
+      },
+      "publisher": "U.S. Department of Health and Human Services",
+      "website": "https://www.hhs.gov/hipaa/",
+      "lastUpdated": "2021-01-01",
+      "effectiveDate": "2021-01-01",
+      "tags": ["HIPAA", "Healthcare", "Privacy"],
+      "industry": ["Healthcare", "Health Insurance"],
+      "region": ["United States"]
+    }
+  ]
+}

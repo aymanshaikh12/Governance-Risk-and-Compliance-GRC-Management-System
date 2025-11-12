@@ -1,0 +1,416 @@
+{
+  "name": "NIST Risk Management Framework",
+  "version": "2.0",
+  "description": "NIST Special Publication 800-37 Revision 2 - Risk Management Framework for Information Systems and Organizations",
+  "type": "Cybersecurity",
+  "status": "Active",
+  "controls": [
+    {
+      "controlId": "AC-1",
+      "title": "Access Control Policy and Procedures",
+      "description": "The organization develops, documents, and disseminates access control policy and procedures",
+      "category": "Access Control",
+      "priority": "High",
+      "requirements": [
+        "Develop access control policy",
+        "Document access control procedures",
+        "Disseminate policy to stakeholders",
+        "Review and update policy regularly"
+      ],
+      "implementationGuidance": "Develop comprehensive access control policies and procedures that define user access rights and restrictions based on business requirements and security considerations.",
+      "testingProcedures": [
+        "Review policy documentation",
+        "Verify policy dissemination",
+        "Check review schedules",
+        "Validate implementation"
+      ],
+      "evidenceTypes": [
+        "Access control policy documents",
+        "Procedure documentation",
+        "Dissemination records",
+        "Review documentation"
+      ]
+    },
+    {
+      "controlId": "AC-2",
+      "title": "Account Management",
+      "description": "The organization manages information system accounts",
+      "category": "Access Control",
+      "priority": "High",
+      "requirements": [
+        "Account creation procedures",
+        "Account modification processes",
+        "Account suspension and termination",
+        "Account monitoring and review"
+      ],
+      "implementationGuidance": "Implement comprehensive account management procedures to ensure proper creation, modification, suspension, and termination of user accounts.",
+      "testingProcedures": [
+        "Review account management procedures",
+        "Test account creation process",
+        "Verify account modification controls",
+        "Check termination procedures"
+      ],
+      "evidenceTypes": [
+        "Account management procedures",
+        "Account creation records",
+        "Modification documentation",
+        "Termination checklists"
+      ]
+    },
+    {
+      "controlId": "AC-3",
+      "title": "Access Enforcement",
+      "description": "The information system enforces approved authorizations for logical access to information and system resources",
+      "category": "Access Control",
+      "priority": "High",
+      "requirements": [
+        "Access control implementation",
+        "Authorization enforcement",
+        "Access monitoring and logging",
+        "Access control testing"
+      ],
+      "implementationGuidance": "Implement technical controls to enforce approved authorizations and ensure only authorized users can access information and system resources.",
+      "testingProcedures": [
+        "Test access control mechanisms",
+        "Verify authorization enforcement",
+        "Check monitoring systems",
+        "Validate access control testing"
+      ],
+      "evidenceTypes": [
+        "Access control configurations",
+        "Authorization records",
+        "Monitoring reports",
+        "Test results"
+      ]
+    },
+    {
+      "controlId": "AC-4",
+      "title": "Information Flow Enforcement",
+      "description": "The information system enforces approved authorizations for controlling the flow of information",
+      "category": "Access Control",
+      "priority": "Medium",
+      "requirements": [
+        "Information flow policies",
+        "Flow control implementation",
+        "Flow monitoring and analysis",
+        "Flow control testing"
+      ],
+      "implementationGuidance": "Implement controls to enforce approved information flow policies and prevent unauthorized information disclosure or modification.",
+      "testingProcedures": [
+        "Review flow control policies",
+        "Test flow enforcement mechanisms",
+        "Verify monitoring systems",
+        "Check flow control testing"
+      ],
+      "evidenceTypes": [
+        "Flow control policies",
+        "Enforcement configurations",
+        "Monitoring reports",
+        "Test documentation"
+      ]
+    },
+    {
+      "controlId": "AC-5",
+      "title": "Separation of Duties",
+      "description": "The organization separates duties of individuals as necessary",
+      "category": "Access Control",
+      "priority": "Medium",
+      "requirements": [
+        "Duty separation policies",
+        "Role definition and assignment",
+        "Separation implementation",
+        "Separation monitoring and review"
+      ],
+      "implementationGuidance": "Implement separation of duties to prevent conflicts of interest and reduce the risk of fraud, error, or unauthorized access.",
+      "testingProcedures": [
+        "Review separation policies",
+        "Verify role assignments",
+        "Check separation implementation",
+        "Validate monitoring processes"
+      ],
+      "evidenceTypes": [
+        "Separation policies",
+        "Role assignment matrices",
+        "Implementation documentation",
+        "Monitoring reports"
+      ]
+    },
+    {
+      "controlId": "AC-6",
+      "title": "Least Privilege",
+      "description": "The organization employs the principle of least privilege",
+      "category": "Access Control",
+      "priority": "High",
+      "requirements": [
+        "Least privilege policies",
+        "Privilege assignment procedures",
+        "Privilege review processes",
+        "Privilege monitoring"
+      ],
+      "implementationGuidance": "Implement the principle of least privilege to ensure users have only the minimum access necessary to perform their job functions.",
+      "testingProcedures": [
+        "Review privilege assignments",
+        "Verify least privilege implementation",
+        "Check review processes",
+        "Validate monitoring systems"
+      ],
+      "evidenceTypes": [
+        "Privilege assignment records",
+        "Implementation documentation",
+        "Review reports",
+        "Monitoring data"
+      ]
+    },
+    {
+      "controlId": "AC-7",
+      "title": "Unsuccessful Logon Attempts",
+      "description": "The information system enforces a limit of consecutive invalid logon attempts",
+      "category": "Access Control",
+      "priority": "High",
+      "requirements": [
+        "Logon attempt limits",
+        "Account lockout procedures",
+        "Lockout duration policies",
+        "Lockout monitoring and alerting"
+      ],
+      "implementationGuidance": "Implement controls to limit consecutive unsuccessful logon attempts and automatically lock accounts after exceeding the threshold.",
+      "testingProcedures": [
+        "Test logon attempt limits",
+        "Verify lockout procedures",
+        "Check duration policies",
+        "Validate monitoring systems"
+      ],
+      "evidenceTypes": [
+        "Logon attempt configurations",
+        "Lockout procedure documentation",
+        "Duration policy settings",
+        "Monitoring reports"
+      ]
+    },
+    {
+      "controlId": "AC-8",
+      "title": "System Use Notification",
+      "description": "The information system displays an approved system use notification message",
+      "category": "Access Control",
+      "priority": "Low",
+      "requirements": [
+        "System use notification message",
+        "Message approval process",
+        "Message display implementation",
+        "Message review and updates"
+      ],
+      "implementationGuidance": "Display approved system use notification messages to inform users of their responsibilities and legal obligations when accessing the system.",
+      "testingProcedures": [
+        "Review notification messages",
+        "Verify approval processes",
+        "Check display implementation",
+        "Validate review procedures"
+      ],
+      "evidenceTypes": [
+        "Notification message text",
+        "Approval documentation",
+        "Display configurations",
+        "Review records"
+      ]
+    },
+    {
+      "controlId": "AC-9",
+      "title": "Previous Logon Notification",
+      "description": "The information system notifies the user of successful logons",
+      "category": "Access Control",
+      "priority": "Low",
+      "requirements": [
+        "Logon notification implementation",
+        "Notification content definition",
+        "Notification delivery methods",
+        "Notification monitoring"
+      ],
+      "implementationGuidance": "Implement notifications to inform users of successful logons, including previous logon information for security awareness.",
+      "testingProcedures": [
+        "Test logon notifications",
+        "Verify notification content",
+        "Check delivery methods",
+        "Validate monitoring systems"
+      ],
+      "evidenceTypes": [
+        "Notification configurations",
+        "Content documentation",
+        "Delivery method settings",
+        "Monitoring reports"
+      ]
+    },
+    {
+      "controlId": "AC-10",
+      "title": "Concurrent Session Control",
+      "description": "The information system limits the number of concurrent sessions",
+      "category": "Access Control",
+      "priority": "Medium",
+      "requirements": [
+        "Concurrent session limits",
+        "Session management procedures",
+        "Session monitoring and control",
+        "Session termination procedures"
+      ],
+      "implementationGuidance": "Implement controls to limit the number of concurrent sessions per user to prevent unauthorized access and resource abuse.",
+      "testingProcedures": [
+        "Test session limits",
+        "Verify management procedures",
+        "Check monitoring systems",
+        "Validate termination procedures"
+      ],
+      "evidenceTypes": [
+        "Session limit configurations",
+        "Management procedures",
+        "Monitoring reports",
+        "Termination documentation"
+      ]
+    },
+    {
+      "controlId": "AC-11",
+      "title": "Session Lock",
+      "description": "The information system prevents further access to the system by initiating a session lock",
+      "category": "Access Control",
+      "priority": "Medium",
+      "requirements": [
+        "Session lock implementation",
+        "Lock trigger conditions",
+        "Lock duration policies",
+        "Lock release procedures"
+      ],
+      "implementationGuidance": "Implement session lock mechanisms to prevent unauthorized access when users are away from their workstations.",
+      "testingProcedures": [
+        "Test session lock functionality",
+        "Verify trigger conditions",
+        "Check duration policies",
+        "Validate release procedures"
+      ],
+      "evidenceTypes": [
+        "Session lock configurations",
+        "Trigger condition settings",
+        "Duration policy documentation",
+        "Release procedure records"
+      ]
+    },
+    {
+      "controlId": "AC-12",
+      "title": "Session Termination",
+      "description": "The information system automatically terminates a user session",
+      "category": "Access Control",
+      "priority": "Medium",
+      "requirements": [
+        "Session termination implementation",
+        "Termination trigger conditions",
+        "Termination procedures",
+        "Termination monitoring"
+      ],
+      "implementationGuidance": "Implement automatic session termination based on defined conditions to ensure security and resource management.",
+      "testingProcedures": [
+        "Test session termination",
+        "Verify trigger conditions",
+        "Check termination procedures",
+        "Validate monitoring systems"
+      ],
+      "evidenceTypes": [
+        "Termination configurations",
+        "Trigger condition settings",
+        "Procedure documentation",
+        "Monitoring reports"
+      ]
+    },
+    {
+      "controlId": "AC-13",
+      "title": "Supervision and Review",
+      "description": "The organization supervises and reviews user activities",
+      "category": "Access Control",
+      "priority": "High",
+      "requirements": [
+        "User activity supervision procedures",
+        "Activity review processes",
+        "Supervision documentation",
+        "Review reporting and analysis"
+      ],
+      "implementationGuidance": "Implement comprehensive supervision and review processes to monitor user activities and ensure compliance with security policies.",
+      "testingProcedures": [
+        "Review supervision procedures",
+        "Verify activity monitoring",
+        "Check review processes",
+        "Validate reporting systems"
+      ],
+      "evidenceTypes": [
+        "Supervision procedures",
+        "Activity monitoring reports",
+        "Review documentation",
+        "Analysis reports"
+      ]
+    },
+    {
+      "controlId": "AC-14",
+      "title": "Permitted Actions Without Identification or Authentication",
+      "description": "The organization identifies and documents permitted actions",
+      "category": "Access Control",
+      "priority": "Low",
+      "requirements": [
+        "Action identification procedures",
+        "Action documentation processes",
+        "Action approval procedures",
+        "Action monitoring and review"
+      ],
+      "implementationGuidance": "Identify and document actions that are permitted without identification or authentication, ensuring they are limited and justified.",
+      "testingProcedures": [
+        "Review action identification",
+        "Verify documentation processes",
+        "Check approval procedures",
+        "Validate monitoring systems"
+      ],
+      "evidenceTypes": [
+        "Action identification records",
+        "Documentation processes",
+        "Approval documentation",
+        "Monitoring reports"
+      ]
+    },
+    {
+      "controlId": "AC-15",
+      "title": "Remote Access",
+      "description": "The organization authorizes, monitors, and controls remote access",
+      "category": "Access Control",
+      "priority": "High",
+      "requirements": [
+        "Remote access authorization procedures",
+        "Remote access monitoring systems",
+        "Remote access control implementation",
+        "Remote access review processes"
+      ],
+      "implementationGuidance": "Implement comprehensive controls for remote access including authorization, monitoring, and control mechanisms to ensure security.",
+      "testingProcedures": [
+        "Review remote access procedures",
+        "Test authorization systems",
+        "Verify monitoring capabilities",
+        "Check control implementation"
+      ],
+      "evidenceTypes": [
+        "Remote access procedures",
+        "Authorization records",
+        "Monitoring reports",
+        "Control documentation"
+      ]
+    }
+  ],
+  "assessmentCriteria": {
+    "frequency": "Annually",
+    "methodology": "NIST RMF assessment methodology",
+    "scoringMethod": "Weighted Score",
+    "thresholds": {
+      "pass": 85,
+      "warning": 70,
+      "fail": 50
+    }
+  },
+  "publisher": "National Institute of Standards and Technology",
+  "website": "https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final",
+  "lastUpdated": "2018-12-01",
+  "effectiveDate": "2018-12-01",
+  "tags": ["NIST RMF", "Risk Management", "Cybersecurity Framework"],
+  "industry": ["All Industries", "Government", "Critical Infrastructure"],
+  "region": ["United States", "Global"]
+}

@@ -1,0 +1,468 @@
+{
+  "risks": [
+    {
+      "title": "Advanced Persistent Threat (APT) Attack",
+      "description": "Sophisticated, long-term cyber attack targeting sensitive data and intellectual property",
+      "category": "Technical",
+      "subCategory": "Cybersecurity",
+      "likelihood": "Medium",
+      "likelihoodScore": 3,
+      "impact": "Critical",
+      "impactScore": 5,
+      "businessUnit": "IT Security",
+      "asset": "Corporate Network and Data Centers",
+      "threat": "State-sponsored or organized cybercriminals",
+      "vulnerability": "Insufficient network segmentation and monitoring",
+      "treatment": "Mitigate",
+      "treatmentDescription": "Implement advanced threat detection, network segmentation, and continuous monitoring systems",
+      "treatmentOwner": "Chief Information Security Officer",
+      "treatmentStatus": "In Progress",
+      "treatmentDueDate": "2024-12-31",
+      "treatmentCost": 250000,
+      "nextReviewDate": "2024-06-30",
+      "createdBy": "Security Team",
+      "updatedBy": "Security Team",
+      "complianceFrameworks": [
+        {
+          "framework": "ISO 27005",
+          "controlId": "A.8.1.1",
+          "controlTitle": "Inventory of Assets",
+          "requirement": "Asset protection and monitoring"
+        },
+        {
+          "framework": "NIST RMF",
+          "controlId": "SC-7",
+          "controlTitle": "Boundary Protection",
+          "requirement": "Network security controls"
+        }
+      ]
+    },
+    {
+      "title": "Cloud Data Breach",
+      "description": "Unauthorized access to sensitive data stored in cloud environments",
+      "category": "Technical",
+      "subCategory": "Cloud Security",
+      "likelihood": "High",
+      "likelihoodScore": 4,
+      "impact": "High",
+      "impactScore": 4,
+      "businessUnit": "Cloud Operations",
+      "asset": "Cloud Infrastructure and Data",
+      "threat": "Cloud misconfigurations and credential theft",
+      "vulnerability": "Inadequate cloud security controls and monitoring",
+      "treatment": "Mitigate",
+      "treatmentDescription": "Implement cloud security posture management, encryption, and access controls",
+      "treatmentOwner": "Cloud Security Manager",
+      "treatmentStatus": "Planned",
+      "treatmentDueDate": "2024-08-15",
+      "treatmentCost": 150000,
+      "nextReviewDate": "2024-09-30",
+      "createdBy": "Cloud Team",
+      "updatedBy": "Cloud Team",
+      "complianceFrameworks": [
+        {
+          "framework": "SOC 2",
+          "controlId": "CC6.7",
+          "controlTitle": "The Entity Encrypts Data at Rest",
+          "requirement": "Data encryption and protection"
+        }
+      ]
+    },
+    {
+      "title": "Supply Chain Compromise",
+      "description": "Malicious software or hardware introduced through supply chain partners",
+      "category": "Operational",
+      "subCategory": "Supply Chain",
+      "likelihood": "Medium",
+      "likelihoodScore": 3,
+      "impact": "High",
+      "impactScore": 4,
+      "businessUnit": "Procurement",
+      "asset": "IT Hardware and Software",
+      "threat": "Compromised suppliers and vendors",
+      "vulnerability": "Insufficient vendor security assessments",
+      "treatment": "Mitigate",
+      "treatmentDescription": "Implement vendor security assessments, supply chain monitoring, and verification procedures",
+      "treatmentOwner": "Procurement Director",
+      "treatmentStatus": "In Progress",
+      "treatmentDueDate": "2024-07-30",
+      "treatmentCost": 75000,
+      "nextReviewDate": "2024-08-31",
+      "createdBy": "Procurement Team",
+      "updatedBy": "Procurement Team",
+      "complianceFrameworks": [
+        {
+          "framework": "ISO 27001",
+          "controlId": "A.15.1.1",
+          "controlTitle": "Information Security in Supplier Relationships",
+          "requirement": "Supplier security management"
+        }
+      ]
+    },
+    {
+      "title": "Ransomware Attack",
+      "description": "Malicious software that encrypts data and demands payment for decryption",
+      "category": "Technical",
+      "subCategory": "Malware",
+      "likelihood": "High",
+      "likelihoodScore": 4,
+      "impact": "High",
+      "impactScore": 4,
+      "businessUnit": "IT Operations",
+      "asset": "Corporate Systems and Data",
+      "threat": "Ransomware operators and cybercriminals",
+      "vulnerability": "Insufficient backup systems and user training",
+      "treatment": "Mitigate",
+      "treatmentDescription": "Implement comprehensive backup systems, user training, and endpoint protection",
+      "treatmentOwner": "IT Director",
+      "treatmentStatus": "Completed",
+      "treatmentDueDate": "2024-03-15",
+      "treatmentCost": 100000,
+      "nextReviewDate": "2024-12-31",
+      "createdBy": "IT Security Team",
+      "updatedBy": "IT Security Team",
+      "complianceFrameworks": [
+        {
+          "framework": "PCI DSS",
+          "controlId": "5.1",
+          "controlTitle": "Deploy Anti-Virus Software on All Systems",
+          "requirement": "Malware protection"
+        }
+      ]
+    },
+    {
+      "title": "Insider Data Theft",
+      "description": "Malicious insider stealing sensitive company data for personal gain",
+      "category": "Operational",
+      "subCategory": "Human Resources",
+      "likelihood": "Low",
+      "likelihoodScore": 2,
+      "impact": "High",
+      "impactScore": 4,
+      "businessUnit": "Human Resources",
+      "asset": "Employee Data and Intellectual Property",
+      "threat": "Disgruntled employees and contractors",
+      "vulnerability": "Insufficient access controls and monitoring",
+      "treatment": "Mitigate",
+      "treatmentDescription": "Implement data loss prevention, user behavior analytics, and access controls",
+      "treatmentOwner": "HR Director",
+      "treatmentStatus": "In Progress",
+      "treatmentDueDate": "2024-09-30",
+      "treatmentCost": 125000,
+      "nextReviewDate": "2024-10-31",
+      "createdBy": "HR Team",
+      "updatedBy": "HR Team",
+      "complianceFrameworks": [
+        {
+          "framework": "ISO 27005",
+          "controlId": "A.6.1.1",
+          "controlTitle": "Information Security Roles and Responsibilities",
+          "requirement": "Access control and monitoring"
+        }
+      ]
+    },
+    {
+      "title": "Third-Party Data Breach",
+      "description": "Data breach at third-party service provider affecting company data",
+      "category": "Operational",
+      "subCategory": "Vendor Management",
+      "likelihood": "Medium",
+      "likelihoodScore": 3,
+      "impact": "High",
+      "impactScore": 4,
+      "businessUnit": "Vendor Management",
+      "asset": "Third-Party Data and Services",
+      "threat": "Third-party security vulnerabilities",
+      "vulnerability": "Insufficient vendor security requirements",
+      "treatment": "Transfer",
+      "treatmentDescription": "Purchase cyber insurance and implement vendor security requirements",
+      "treatmentOwner": "Risk Manager",
+      "treatmentStatus": "Completed",
+      "treatmentDueDate": "2024-02-28",
+      "treatmentCost": 50000,
+      "nextReviewDate": "2024-12-31",
+      "createdBy": "Risk Management Team",
+      "updatedBy": "Risk Management Team",
+      "complianceFrameworks": [
+        {
+          "framework": "SOC 2",
+          "controlId": "CC3.1",
+          "controlTitle": "Risk Assessment Process",
+          "requirement": "Third-party risk management"
+        }
+      ]
+    },
+    {
+      "title": "Regulatory Non-Compliance",
+      "description": "Failure to comply with data protection regulations resulting in fines and penalties",
+      "category": "Compliance",
+      "subCategory": "Data Protection",
+      "likelihood": "Medium",
+      "likelihoodScore": 3,
+      "impact": "High",
+      "impactScore": 4,
+      "businessUnit": "Legal & Compliance",
+      "asset": "Personal Data and Compliance Systems",
+      "threat": "Regulatory investigations and audits",
+      "vulnerability": "Insufficient compliance monitoring and controls",
+      "treatment": "Mitigate",
+      "treatmentDescription": "Implement comprehensive compliance program, data mapping, and privacy controls",
+      "treatmentOwner": "Data Protection Officer",
+      "treatmentStatus": "In Progress",
+      "treatmentDueDate": "2024-11-30",
+      "treatmentCost": 200000,
+      "nextReviewDate": "2024-12-31",
+      "createdBy": "Compliance Team",
+      "updatedBy": "Compliance Team",
+      "complianceFrameworks": [
+        {
+          "framework": "GDPR",
+          "controlId": "Art. 5",
+          "controlTitle": "Principles relating to processing of personal data",
+          "requirement": "Data protection compliance"
+        }
+      ]
+    },
+    {
+      "title": "System Downtime",
+      "description": "Critical business systems unavailable due to hardware failure or cyber attack",
+      "category": "Technical",
+      "subCategory": "Infrastructure",
+      "likelihood": "Low",
+      "likelihoodScore": 2,
+      "impact": "Medium",
+      "impactScore": 3,
+      "businessUnit": "IT Operations",
+      "asset": "Production Servers and Infrastructure",
+      "threat": "Hardware failure and cyber attacks",
+      "vulnerability": "Aging infrastructure and insufficient redundancy",
+      "treatment": "Transfer",
+      "treatmentDescription": "Purchase comprehensive maintenance contracts and business continuity insurance",
+      "treatmentOwner": "IT Director",
+      "treatmentStatus": "Completed",
+      "treatmentDueDate": "2024-01-15",
+      "treatmentCost": 75000,
+      "nextReviewDate": "2024-12-31",
+      "createdBy": "IT Operations Team",
+      "updatedBy": "IT Operations Team",
+      "complianceFrameworks": []
+    },
+    {
+      "title": "Social Engineering Attack",
+      "description": "Manipulation of employees to gain unauthorized access to systems and data",
+      "category": "Operational",
+      "subCategory": "Social Engineering",
+      "likelihood": "High",
+      "likelihoodScore": 4,
+      "impact": "Medium",
+      "impactScore": 3,
+      "businessUnit": "All Departments",
+      "asset": "Employee Credentials and Access",
+      "threat": "Social engineers and phishing campaigns",
+      "vulnerability": "Insufficient security awareness training",
+      "treatment": "Mitigate",
+      "treatmentDescription": "Implement comprehensive security awareness training and phishing simulations",
+      "treatmentOwner": "Security Awareness Manager",
+      "treatmentStatus": "In Progress",
+      "treatmentDueDate": "2024-10-15",
+      "treatmentCost": 50000,
+      "nextReviewDate": "2024-11-30",
+      "createdBy": "Security Team",
+      "updatedBy": "Security Team",
+      "complianceFrameworks": [
+        {
+          "framework": "ISO 27001",
+          "controlId": "A.7.2.2",
+          "controlTitle": "Information Security Awareness, Education and Training",
+          "requirement": "Security awareness training"
+        }
+      ]
+    },
+    {
+      "title": "Mobile Device Security Breach",
+      "description": "Compromise of mobile devices leading to unauthorized access to corporate data",
+      "category": "Technical",
+      "subCategory": "Mobile Security",
+      "likelihood": "Medium",
+      "likelihoodScore": 3,
+      "impact": "Medium",
+      "impactScore": 3,
+      "businessUnit": "Mobile IT",
+      "asset": "Mobile Devices and Applications",
+      "threat": "Mobile malware and device theft",
+      "vulnerability": "Insufficient mobile device management",
+      "treatment": "Mitigate",
+      "treatmentDescription": "Implement mobile device management, app security, and device encryption",
+      "treatmentOwner": "Mobile Security Manager",
+      "treatmentStatus": "Planned",
+      "treatmentDueDate": "2024-08-30",
+      "treatmentCost": 80000,
+      "nextReviewDate": "2024-09-30",
+      "createdBy": "Mobile Team",
+      "updatedBy": "Mobile Team",
+      "complianceFrameworks": [
+        {
+          "framework": "NIST RMF",
+          "controlId": "AC-2",
+          "controlTitle": "Account Management",
+          "requirement": "Mobile device access control"
+        }
+      ]
+    },
+    {
+      "title": "API Security Vulnerability",
+      "description": "Security vulnerabilities in application programming interfaces exposing sensitive data",
+      "category": "Technical",
+      "subCategory": "Application Security",
+      "likelihood": "Medium",
+      "likelihoodScore": 3,
+      "impact": "High",
+      "impactScore": 4,
+      "businessUnit": "Application Development",
+      "asset": "API Infrastructure and Data",
+      "threat": "API exploitation and data scraping",
+      "vulnerability": "Insufficient API security controls and testing",
+      "treatment": "Mitigate",
+      "treatmentDescription": "Implement API security testing, rate limiting, and authentication controls",
+      "treatmentOwner": "API Security Manager",
+      "treatmentStatus": "In Progress",
+      "treatmentDueDate": "2024-07-15",
+      "treatmentCost": 90000,
+      "nextReviewDate": "2024-08-31",
+      "createdBy": "Development Team",
+      "updatedBy": "Development Team",
+      "complianceFrameworks": [
+        {
+          "framework": "OWASP",
+          "controlId": "API1",
+          "controlTitle": "Broken Object Level Authorization",
+          "requirement": "API security controls"
+        }
+      ]
+    },
+    {
+      "title": "Business Email Compromise",
+      "description": "Compromise of business email accounts leading to financial fraud and data theft",
+      "category": "Operational",
+      "subCategory": "Email Security",
+      "likelihood": "Medium",
+      "likelihoodScore": 3,
+      "impact": "High",
+      "impactScore": 4,
+      "businessUnit": "Email Operations",
+      "asset": "Business Email Systems",
+      "threat": "Email account takeover and phishing",
+      "vulnerability": "Insufficient email security controls",
+      "treatment": "Mitigate",
+      "treatmentDescription": "Implement email security controls, multi-factor authentication, and user training",
+      "treatmentOwner": "Email Security Manager",
+      "treatmentStatus": "Planned",
+      "treatmentDueDate": "2024-09-15",
+      "treatmentCost": 60000,
+      "nextReviewDate": "2024-10-31",
+      "createdBy": "Email Team",
+      "updatedBy": "Email Team",
+      "complianceFrameworks": [
+        {
+          "framework": "SOC 2",
+          "controlId": "CC6.2",
+          "controlTitle": "Prior to Issuing System Credentials and Granting System Access",
+          "requirement": "Email access controls"
+        }
+      ]
+    },
+    {
+      "title": "IoT Device Compromise",
+      "description": "Compromise of Internet of Things devices leading to network infiltration",
+      "category": "Technical",
+      "subCategory": "IoT Security",
+      "likelihood": "High",
+      "likelihoodScore": 4,
+      "impact": "Medium",
+      "impactScore": 3,
+      "businessUnit": "IoT Operations",
+      "asset": "IoT Devices and Network",
+      "threat": "IoT malware and device exploitation",
+      "vulnerability": "Insufficient IoT security controls",
+      "treatment": "Mitigate",
+      "treatmentDescription": "Implement IoT security controls, network segmentation, and device management",
+      "treatmentOwner": "IoT Security Manager",
+      "treatmentStatus": "In Progress",
+      "treatmentDueDate": "2024-08-31",
+      "treatmentCost": 70000,
+      "nextReviewDate": "2024-09-30",
+      "createdBy": "IoT Team",
+      "updatedBy": "IoT Team",
+      "complianceFrameworks": [
+        {
+          "framework": "NIST RMF",
+          "controlId": "SC-7",
+          "controlTitle": "Boundary Protection",
+          "requirement": "IoT network security"
+        }
+      ]
+    },
+    {
+      "title": "Cryptocurrency Mining Malware",
+      "description": "Malicious software that uses company resources for cryptocurrency mining",
+      "category": "Technical",
+      "subCategory": "Malware",
+      "likelihood": "Medium",
+      "likelihoodScore": 3,
+      "impact": "Low",
+      "impactScore": 2,
+      "businessUnit": "IT Operations",
+      "asset": "Computing Resources and Infrastructure",
+      "threat": "Cryptocurrency mining malware",
+      "vulnerability": "Insufficient endpoint protection",
+      "treatment": "Accept",
+      "treatmentDescription": "Accept residual risk with enhanced monitoring and rapid response procedures",
+      "treatmentOwner": "IT Director",
+      "treatmentStatus": "Completed",
+      "treatmentDueDate": "2024-02-15",
+      "treatmentCost": 25000,
+      "nextReviewDate": "2024-12-31",
+      "createdBy": "IT Security Team",
+      "updatedBy": "IT Security Team",
+      "complianceFrameworks": [
+        {
+          "framework": "PCI DSS",
+          "controlId": "5.2",
+          "controlTitle": "Ensure All Anti-Virus Programs Are Capable of Detecting, Removing, and Protecting Against All Known Types of Malicious Software",
+          "requirement": "Malware protection"
+        }
+      ]
+    },
+    {
+      "title": "Data Center Physical Security Breach",
+      "description": "Unauthorized physical access to data center facilities",
+      "category": "Operational",
+      "subCategory": "Physical Security",
+      "likelihood": "Low",
+      "likelihoodScore": 2,
+      "impact": "High",
+      "impactScore": 4,
+      "businessUnit": "Facilities Management",
+      "asset": "Data Center Infrastructure",
+      "threat": "Physical intruders and unauthorized access",
+      "vulnerability": "Insufficient physical security controls",
+      "treatment": "Mitigate",
+      "treatmentDescription": "Implement comprehensive physical security controls, access systems, and monitoring",
+      "treatmentOwner": "Facilities Director",
+      "treatmentStatus": "In Progress",
+      "treatmentDueDate": "2024-06-30",
+      "treatmentCost": 150000,
+      "nextReviewDate": "2024-07-31",
+      "createdBy": "Facilities Team",
+      "updatedBy": "Facilities Team",
+      "complianceFrameworks": [
+        {
+          "framework": "ISO 27001",
+          "controlId": "A.11.1.1",
+          "controlTitle": "Physical and Environmental Security",
+          "requirement": "Physical security controls"
+        }
+      ]
+    }
+  ]
+}

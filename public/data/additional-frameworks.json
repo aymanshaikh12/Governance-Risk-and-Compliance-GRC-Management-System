@@ -1,0 +1,220 @@
+{
+  "frameworks": [
+    {
+      "name": "COBIT 2019",
+      "version": "2019",
+      "description": "Control Objectives for Information and Related Technologies - Enterprise governance framework",
+      "type": "Operational",
+      "status": "Active",
+      "controls": [
+        {
+          "controlId": "APO01.01",
+          "title": "Define a Strategic IT Plan",
+          "description": "Define a strategic IT plan and direction",
+          "category": "Align, Plan and Organize",
+          "priority": "High",
+          "requirements": [
+            "Strategic IT planning process",
+            "IT strategy documentation",
+            "Strategic alignment"
+          ],
+          "implementationGuidance": "Develop and maintain a comprehensive strategic IT plan aligned with business objectives.",
+          "testingProcedures": [
+            "Review strategic planning process",
+            "Verify strategy documentation",
+            "Check alignment with business objectives"
+          ],
+          "evidenceTypes": [
+            "Strategic IT plan",
+            "Planning process documentation",
+            "Alignment assessments"
+          ]
+        },
+        {
+          "controlId": "APO02.01",
+          "title": "Define the Information Architecture",
+          "description": "Define the information architecture",
+          "category": "Align, Plan and Organize",
+          "priority": "High",
+          "requirements": [
+            "Information architecture definition",
+            "Data classification",
+            "Information flow mapping"
+          ],
+          "implementationGuidance": "Define and maintain a comprehensive information architecture for the organization.",
+          "testingProcedures": [
+            "Review architecture documentation",
+            "Verify data classification",
+            "Check information flow mapping"
+          ],
+          "evidenceTypes": [
+            "Architecture documentation",
+            "Classification schemes",
+            "Flow diagrams"
+          ]
+        }
+      ],
+      "assessmentCriteria": {
+        "frequency": "Annually",
+        "methodology": "COBIT assessment",
+        "scoringMethod": "Maturity Level",
+        "thresholds": {
+          "pass": 3,
+          "warning": 2,
+          "fail": 1
+        }
+      },
+      "publisher": "ISACA",
+      "website": "https://www.isaca.org/resources/cobit",
+      "lastUpdated": "2019-01-01",
+      "effectiveDate": "2019-01-01",
+      "tags": ["COBIT", "Governance", "IT Management"],
+      "industry": ["All Industries"],
+      "region": ["Global"]
+    },
+    {
+      "name": "SOX",
+      "version": "2002",
+      "description": "Sarbanes-Oxley Act - Financial reporting and corporate governance requirements",
+      "type": "Financial",
+      "status": "Active",
+      "controls": [
+        {
+          "controlId": "SOX-302",
+          "title": "Corporate Responsibility for Financial Reports",
+          "description": "Corporate responsibility for financial reports",
+          "category": "Financial Reporting",
+          "priority": "Critical",
+          "requirements": [
+            "Financial report accuracy",
+            "Management certification",
+            "Internal controls"
+          ],
+          "implementationGuidance": "Implement controls to ensure accuracy and reliability of financial reports.",
+          "testingProcedures": [
+            "Review financial controls",
+            "Verify management certifications",
+            "Test internal controls"
+          ],
+          "evidenceTypes": [
+            "Financial control documentation",
+            "Certification records",
+            "Control test results"
+          ]
+        },
+        {
+          "controlId": "SOX-404",
+          "title": "Management Assessment of Internal Controls",
+          "description": "Management assessment of internal controls over financial reporting",
+          "category": "Internal Controls",
+          "priority": "Critical",
+          "requirements": [
+            "Internal control assessment",
+            "Control documentation",
+            "Management evaluation"
+          ],
+          "implementationGuidance": "Implement comprehensive internal controls over financial reporting.",
+          "testingProcedures": [
+            "Review control assessments",
+            "Verify control documentation",
+            "Test management evaluations"
+          ],
+          "evidenceTypes": [
+            "Control assessments",
+            "Documentation",
+            "Evaluation reports"
+          ]
+        }
+      ],
+      "assessmentCriteria": {
+        "frequency": "Annually",
+        "methodology": "SOX compliance assessment",
+        "scoringMethod": "Pass/Fail",
+        "thresholds": {
+          "pass": 100,
+          "warning": 95,
+          "fail": 90
+        }
+      },
+      "publisher": "U.S. Congress",
+      "website": "https://www.sec.gov/spotlight/sarbanes-oxley.htm",
+      "lastUpdated": "2002-07-30",
+      "effectiveDate": "2002-07-30",
+      "tags": ["SOX", "Financial", "Corporate Governance"],
+      "industry": ["Public Companies"],
+      "region": ["United States"]
+    },
+    {
+      "name": "NIST Cybersecurity Framework",
+      "version": "1.1",
+      "description": "Framework for Improving Critical Infrastructure Cybersecurity",
+      "type": "Cybersecurity",
+      "status": "Active",
+      "controls": [
+        {
+          "controlId": "ID.AM-1",
+          "title": "Physical Devices and Systems",
+          "description": "Physical devices and systems within the organization are inventoried",
+          "category": "Identify",
+          "priority": "High",
+          "requirements": [
+            "Device inventory",
+            "System documentation",
+            "Asset management"
+          ],
+          "implementationGuidance": "Maintain an inventory of all physical devices and systems.",
+          "testingProcedures": [
+            "Review device inventory",
+            "Verify system documentation",
+            "Check asset management processes"
+          ],
+          "evidenceTypes": [
+            "Device inventory",
+            "System documentation",
+            "Asset management records"
+          ]
+        },
+        {
+          "controlId": "PR.AC-1",
+          "title": "Identities and Credentials",
+          "description": "Identities and credentials are issued, managed, verified, revoked, and audited for authorized devices, users and processes",
+          "category": "Protect",
+          "priority": "High",
+          "requirements": [
+            "Identity management",
+            "Credential management",
+            "Access verification"
+          ],
+          "implementationGuidance": "Implement comprehensive identity and credential management processes.",
+          "testingProcedures": [
+            "Review identity management",
+            "Verify credential processes",
+            "Test access verification"
+          ],
+          "evidenceTypes": [
+            "Identity management documentation",
+            "Credential records",
+            "Access verification logs"
+          ]
+        }
+      ],
+      "assessmentCriteria": {
+        "frequency": "Annually",
+        "methodology": "NIST CSF assessment",
+        "scoringMethod": "Tier Level",
+        "thresholds": {
+          "pass": 3,
+          "warning": 2,
+          "fail": 1
+        }
+      },
+      "publisher": "NIST",
+      "website": "https://www.nist.gov/cyberframework",
+      "lastUpdated": "2018-04-16",
+      "effectiveDate": "2018-04-16",
+      "tags": ["NIST", "Cybersecurity", "Critical Infrastructure"],
+      "industry": ["All Industries"],
+      "region": ["United States"]
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "name": "SOC 2 Type II",
+  "version": "2017",
+  "description": "Service Organization Control 2 - Trust Services Criteria",
+  "type": "Operational",
+  "status": "Active",
+  "controls": [
+    {
+      "controlId": "CC1.1",
+      "title": "Control Environment",
+      "description": "The entity demonstrates a commitment to integrity and ethical values",
+      "category": "Control Environment",
+      "priority": "High",
+      "requirements": [
+        "Code of conduct",
+        "Ethical values communication",
+        "Integrity commitment"
+      ],
+      "implementationGuidance": "Establish and maintain a strong control environment that demonstrates commitment to integrity and ethical values.",
+      "testingProcedures": [
+        "Review code of conduct",
+        "Verify ethical values communication",
+        "Check integrity commitment"
+      ],
+      "evidenceTypes": [
+        "Code of conduct documents",
+        "Communication records",
+        "Integrity statements"
+      ]
+    },
+    {
+      "controlId": "CC1.2",
+      "title": "Board of Directors Oversight",
+      "description": "The board of directors demonstrates independence and exercises oversight of the development and performance of internal control",
+      "category": "Control Environment",
+      "priority": "High",
+      "requirements": [
+        "Board independence",
+        "Oversight responsibilities",
+        "Control development oversight"
+      ],
+      "implementationGuidance": "Ensure the board of directors maintains independence and exercises proper oversight of internal controls.",
+      "testingProcedures": [
+        "Review board independence",
+        "Verify oversight responsibilities",
+        "Check control development oversight"
+      ],
+      "evidenceTypes": [
+        "Board independence documentation",
+        "Oversight records",
+        "Control development reports"
+      ]
+    },
+    {
+      "controlId": "CC1.3",
+      "title": "Management's Philosophy and Operating Style",
+      "description": "Management establishes oversight responsibilities for the system of internal control",
+      "category": "Control Environment",
+      "priority": "Medium",
+      "requirements": [
+        "Management oversight",
+        "Control responsibilities",
+        "Operating style documentation"
+      ],
+      "implementationGuidance": "Document and communicate management's philosophy and operating style regarding internal controls.",
+      "testingProcedures": [
+        "Review management philosophy",
+        "Verify oversight responsibilities",
+        "Check operating style documentation"
+      ],
+      "evidenceTypes": [
+        "Management philosophy documents",
+        "Oversight procedures",
+        "Operating style guidelines"
+      ]
+    },
+    {
+      "controlId": "CC2.1",
+      "title": "Communication and Information",
+      "description": "The entity obtains or generates and uses relevant, quality information to support the functioning of internal control",
+      "category": "Communication and Information",
+      "priority": "High",
+      "requirements": [
+        "Information quality standards",
+        "Information generation procedures",
+        "Information usage guidelines"
+      ],
+      "implementationGuidance": "Establish processes to ensure the entity obtains, generates, and uses relevant, quality information.",
+      "testingProcedures": [
+        "Review information quality standards",
+        "Verify generation procedures",
+        "Check usage guidelines"
+      ],
+      "evidenceTypes": [
+        "Quality standards documentation",
+        "Generation procedures",
+        "Usage guidelines"
+      ]
+    },
+    {
+      "controlId": "CC2.2",
+      "title": "Internal Communication",
+      "description": "The entity internally communicates information, including objectives and responsibilities for internal control, necessary to support the functioning of internal control",
+      "category": "Communication and Information",
+      "priority": "High",
+      "requirements": [
+        "Internal communication procedures",
+        "Objective communication",
+        "Responsibility communication"
+      ],
+      "implementationGuidance": "Implement effective internal communication processes for control-related information.",
+      "testingProcedures": [
+        "Review communication procedures",
+        "Verify objective communication",
+        "Check responsibility communication"
+      ],
+      "evidenceTypes": [
+        "Communication procedures",
+        "Objective communication records",
+        "Responsibility documentation"
+      ]
+    },
+    {
+      "controlId": "CC2.3",
+      "title": "External Communication",
+      "description": "The entity communicates with external parties regarding matters affecting the functioning of internal control",
+      "category": "Communication and Information",
+      "priority": "Medium",
+      "requirements": [
+        "External communication procedures",
+        "Stakeholder communication",
+        "Control-related communication"
+      ],
+      "implementationGuidance": "Establish procedures for communicating with external parties about internal control matters.",
+      "testingProcedures": [
+        "Review external communication procedures",
+        "Verify stakeholder communication",
+        "Check control-related communication"
+      ],
+      "evidenceTypes": [
+        "External communication procedures",
+        "Stakeholder communication records",
+        "Control communication logs"
+      ]
+    },
+    {
+      "controlId": "CC3.1",
+      "title": "Risk Assessment Process",
+      "description": "The entity specifies suitable objectives and identifies risks to the achievement of those objectives",
+      "category": "Risk Assessment",
+      "priority": "High",
+      "requirements": [
+        "Objective specification",
+        "Risk identification processes",
+        "Risk assessment procedures"
+      ],
+      "implementationGuidance": "Implement a comprehensive risk assessment process to identify and evaluate risks to objectives.",
+      "testingProcedures": [
+        "Review objective specification",
+        "Verify risk identification processes",
+        "Check risk assessment procedures"
+      ],
+      "evidenceTypes": [
+        "Objective documentation",
+        "Risk identification records",
+        "Risk assessment reports"
+      ]
+    },
+    {
+      "controlId": "CC3.2",
+      "title": "Fraud Risk",
+      "description": "The entity identifies and analyzes fraud risks",
+      "category": "Risk Assessment",
+      "priority": "High",
+      "requirements": [
+        "Fraud risk identification",
+        "Fraud risk analysis",
+        "Fraud prevention measures"
+      ],
+      "implementationGuidance": "Establish processes to identify, analyze, and address fraud risks.",
+      "testingProcedures": [
+        "Review fraud risk identification",
+        "Verify fraud risk analysis",
+        "Check fraud prevention measures"
+      ],
+      "evidenceTypes": [
+        "Fraud risk assessments",
+        "Analysis reports",
+        "Prevention measures documentation"
+      ]
+    },
+    {
+      "controlId": "CC4.1",
+      "title": "Control Activities",
+      "description": "The entity selects and develops control activities that contribute to the mitigation of risks to the achievement of objectives",
+      "category": "Control Activities",
+      "priority": "High",
+      "requirements": [
+        "Control activity selection",
+        "Control development procedures",
+        "Risk mitigation measures"
+      ],
+      "implementationGuidance": "Select and develop appropriate control activities to mitigate identified risks.",
+      "testingProcedures": [
+        "Review control activity selection",
+        "Verify control development procedures",
+        "Check risk mitigation measures"
+      ],
+      "evidenceTypes": [
+        "Control activity documentation",
+        "Development procedures",
+        "Mitigation measures records"
+      ]
+    },
+    {
+      "controlId": "CC4.2",
+      "title": "Control Activities Implementation",
+      "description": "The entity develops and uses control activities to mitigate risks to the achievement of objectives",
+      "category": "Control Activities",
+      "priority": "High",
+      "requirements": [
+        "Control implementation procedures",
+        "Control usage guidelines",
+        "Risk mitigation effectiveness"
+      ],
+      "implementationGuidance": "Implement and use control activities effectively to mitigate risks.",
+      "testingProcedures": [
+        "Review implementation procedures",
+        "Verify usage guidelines",
+        "Check mitigation effectiveness"
+      ],
+      "evidenceTypes": [
+        "Implementation procedures",
+        "Usage guidelines",
+        "Effectiveness assessments"
+      ]
+    },
+    {
+      "controlId": "CC5.1",
+      "title": "Control Environment",
+      "description": "The entity selects, develops, and performs ongoing and/or separate evaluations to ascertain whether the components of internal control are present and functioning",
+      "category": "Monitoring Activities",
+      "priority": "High",
+      "requirements": [
+        "Evaluation procedures",
+        "Control assessment processes",
+        "Functioning verification"
+      ],
+      "implementationGuidance": "Implement ongoing and separate evaluations to ensure controls are present and functioning.",
+      "testingProcedures": [
+        "Review evaluation procedures",
+        "Verify assessment processes",
+        "Check functioning verification"
+      ],
+      "evidenceTypes": [
+        "Evaluation procedures",
+        "Assessment reports",
+        "Functioning verification records"
+      ]
+    },
+    {
+      "controlId": "CC5.2",
+      "title": "Deficiencies in Internal Control",
+      "description": "The entity evaluates and communicates deficiencies in internal control to those responsible for taking corrective action",
+      "category": "Monitoring Activities",
+      "priority": "High",
+      "requirements": [
+        "Deficiency evaluation procedures",
+        "Communication processes",
+        "Corrective action procedures"
+      ],
+      "implementationGuidance": "Establish processes to evaluate and communicate control deficiencies for corrective action.",
+      "testingProcedures": [
+        "Review evaluation procedures",
+        "Verify communication processes",
+        "Check corrective action procedures"
+      ],
+      "evidenceTypes": [
+        "Evaluation procedures",
+        "Communication records",
+        "Corrective action documentation"
+      ]
+    },
+    {
+      "controlId": "CC6.1",
+      "title": "Logical and Physical Access Security",
+      "description": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives",
+      "category": "Access Control",
+      "priority": "High",
+      "requirements": [
+        "Logical access controls",
+        "Physical access controls",
+        "Access monitoring and logging"
+      ],
+      "implementationGuidance": "Implement comprehensive access controls to protect information assets from unauthorized access.",
+      "testingProcedures": [
+        "Review access control configurations",
+        "Test access restrictions",
+        "Verify monitoring systems"
+      ],
+      "evidenceTypes": [
+        "Access control configurations",
+        "Test results",
+        "Monitoring reports"
+      ]
+    },
+    {
+      "controlId": "CC6.2",
+      "title": "Prior to Issuing System Credentials and Granting System Access",
+      "description": "The entity registers and authorizes new internal and external users before granting access to information assets",
+      "category": "Access Control",
+      "priority": "High",
+      "requirements": [
+        "User registration procedures",
+        "Authorization processes",
+        "Access provisioning"
+      ],
+      "implementationGuidance": "Establish formal procedures for user registration and authorization before granting system access.",
+      "testingProcedures": [
+        "Review registration procedures",
+        "Test authorization processes",
+        "Verify access provisioning"
+      ],
+      "evidenceTypes": [
+        "Registration procedures",
+        "Authorization records",
+        "Provisioning documentation"
+      ]
+    },
+    {
+      "controlId": "CC6.3",
+      "title": "The Entity Authorizes, Modifies, or Removes Access to Data, Software, and Hardware",
+      "description": "The entity authorizes, modifies, or removes access to data, software, and hardware to meet the entity's objectives",
+      "category": "Access Control",
+      "priority": "High",
+      "requirements": [
+        "Access authorization procedures",
+        "Access modification processes",
+        "Access removal procedures"
+      ],
+      "implementationGuidance": "Implement formal procedures for authorizing, modifying, and removing access to information assets.",
+      "testingProcedures": [
+        "Review authorization procedures",
+        "Test modification processes",
+        "Verify removal procedures"
+      ],
+      "evidenceTypes": [
+        "Authorization procedures",
+        "Modification records",
+        "Removal documentation"
+      ]
+    },
+    {
+      "controlId": "CC6.4",
+      "title": "The Entity Restricts Access to Information Assets",
+      "description": "The entity restricts access to information assets to authorized users",
+      "category": "Access Control",
+      "priority": "High",
+      "requirements": [
+        "Access restriction policies",
+        "Authorization verification",
+        "Access monitoring"
+      ],
+      "implementationGuidance": "Implement controls to restrict access to information assets to authorized users only.",
+      "testingProcedures": [
+        "Review restriction policies",
+        "Verify authorization processes",
+        "Check access monitoring"
+      ],
+      "evidenceTypes": [
+        "Restriction policies",
+        "Authorization records",
+        "Monitoring reports"
+      ]
+    },
+    {
+      "controlId": "CC6.5",
+      "title": "The Entity Protects Against Malicious Software",
+      "description": "The entity protects against malicious software",
+      "category": "System Security",
+      "priority": "High",
+      "requirements": [
+        "Malware protection software",
+        "Protection policies",
+        "Threat monitoring"
+      ],
+      "implementationGuidance": "Implement comprehensive protection against malicious software and threats.",
+      "testingProcedures": [
+        "Review protection software",
+        "Verify protection policies",
+        "Check threat monitoring"
+      ],
+      "evidenceTypes": [
+        "Protection software documentation",
+        "Protection policies",
+        "Threat monitoring reports"
+      ]
+    },
+    {
+      "controlId": "CC6.6",
+      "title": "The Entity Logs and Monitors System Access and Use",
+      "description": "The entity logs and monitors system access and use",
+      "category": "Monitoring",
+      "priority": "High",
+      "requirements": [
+        "Logging procedures",
+        "Monitoring systems",
+        "Access tracking"
+      ],
+      "implementationGuidance": "Implement comprehensive logging and monitoring of system access and use.",
+      "testingProcedures": [
+        "Review logging procedures",
+        "Verify monitoring systems",
+        "Check access tracking"
+      ],
+      "evidenceTypes": [
+        "Logging procedures",
+        "Monitoring configurations",
+        "Access logs"
+      ]
+    },
+    {
+      "controlId": "CC6.7",
+      "title": "The Entity Encrypts Data at Rest",
+      "description": "The entity encrypts data at rest",
+      "category": "Data Protection",
+      "priority": "High",
+      "requirements": [
+        "Data encryption policies",
+        "Encryption implementation",
+        "Key management"
+      ],
+      "implementationGuidance": "Implement encryption for data at rest to protect sensitive information.",
+      "testingProcedures": [
+        "Review encryption policies",
+        "Verify encryption implementation",
+        "Check key management"
+      ],
+      "evidenceTypes": [
+        "Encryption policies",
+        "Implementation documentation",
+        "Key management records"
+      ]
+    },
+    {
+      "controlId": "CC6.8",
+      "title": "The Entity Encrypts Data in Transit",
+      "description": "The entity encrypts data in transit",
+      "category": "Data Protection",
+      "priority": "High",
+      "requirements": [
+        "Transit encryption policies",
+        "Encryption protocols",
+        "Secure communication"
+      ],
+      "implementationGuidance": "Implement encryption for data in transit to protect information during transmission.",
+      "testingProcedures": [
+        "Review transit encryption policies",
+        "Verify encryption protocols",
+        "Check secure communication"
+      ],
+      "evidenceTypes": [
+        "Transit encryption policies",
+        "Protocol documentation",
+        "Communication security records"
+      ]
+    }
+  ],
+  "assessmentCriteria": {
+    "frequency": "Annually",
+    "methodology": "SOC 2 examination",
+    "scoringMethod": "Pass/Fail",
+    "thresholds": {
+      "pass": 100,
+      "warning": 90,
+      "fail": 80
+    }
+  },
+  "publisher": "AICPA",
+  "website": "https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report",
+  "lastUpdated": "2017-04-15",
+  "effectiveDate": "2017-04-15",
+  "tags": ["SOC 2", "Service Organization", "Trust Services"],
+  "industry": ["Technology", "Cloud Services", "SaaS"],
+  "region": ["United States"]
+}

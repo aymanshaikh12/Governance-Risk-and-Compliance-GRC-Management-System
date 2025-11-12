@@ -1,0 +1,95 @@
+{
+  "name": "Basic Security Framework",
+  "version": "1.0",
+  "description": "A simple security framework for testing upload functionality",
+  "type": "Cybersecurity",
+  "status": "Active",
+  "controls": [
+    {
+      "controlId": "BSF-001",
+      "title": "Access Control Policy",
+      "description": "Implement and maintain access control policies",
+      "category": "Access Control",
+      "priority": "High",
+      "requirements": [
+        "Documented access control policy",
+        "Policy implementation",
+        "Regular policy reviews"
+      ],
+      "implementationGuidance": "Develop and maintain comprehensive access control policies that define user access rights and restrictions.",
+      "testingProcedures": [
+        "Review policy documentation",
+        "Verify policy implementation",
+        "Check review procedures"
+      ],
+      "evidenceTypes": [
+        "Policy documents",
+        "Implementation records",
+        "Review reports"
+      ]
+    },
+    {
+      "controlId": "BSF-002",
+      "title": "Data Encryption",
+      "description": "Encrypt sensitive data at rest and in transit",
+      "category": "Data Protection",
+      "priority": "High",
+      "requirements": [
+        "Data encryption implementation",
+        "Key management procedures",
+        "Encryption monitoring"
+      ],
+      "implementationGuidance": "Implement strong encryption for all sensitive data both at rest and in transit.",
+      "testingProcedures": [
+        "Verify encryption implementation",
+        "Test key management",
+        "Check encryption monitoring"
+      ],
+      "evidenceTypes": [
+        "Encryption documentation",
+        "Key management records",
+        "Monitoring reports"
+      ]
+    },
+    {
+      "controlId": "BSF-003",
+      "title": "Security Monitoring",
+      "description": "Implement continuous security monitoring",
+      "category": "Monitoring",
+      "priority": "Medium",
+      "requirements": [
+        "Security event monitoring",
+        "Log analysis",
+        "Incident response"
+      ],
+      "implementationGuidance": "Implement comprehensive security monitoring to detect and respond to security events.",
+      "testingProcedures": [
+        "Review monitoring systems",
+        "Test log analysis",
+        "Verify incident response"
+      ],
+      "evidenceTypes": [
+        "Monitoring configurations",
+        "Log analysis reports",
+        "Incident response records"
+      ]
+    }
+  ],
+  "assessmentCriteria": {
+    "frequency": "Quarterly",
+    "methodology": "Basic security assessment",
+    "scoringMethod": "Pass/Fail",
+    "thresholds": {
+      "pass": 100,
+      "warning": 80,
+      "fail": 60
+    }
+  },
+  "publisher": "CompSec",
+  "website": "https://compsec.example.com",
+  "lastUpdated": "2024-01-01",
+  "effectiveDate": "2024-01-01",
+  "tags": ["Basic", "Security", "Testing"],
+  "industry": ["All Industries"],
+  "region": ["Global"]
+}

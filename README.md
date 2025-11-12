@@ -274,25 +274,7 @@ For support and questions:
 - Contact the development team
 - Check the documentation
 
-## Roadmap
 
-### Phase 1 (Current)
-- ✅ Basic risk management
-- ✅ Compliance framework integration
-- ✅ Assessment management
-- ✅ Dashboard and reporting
-
-### Phase 2 (Planned)
-- 🔄 User authentication and authorization
-- 🔄 Advanced reporting and analytics
-- 🔄 Workflow automation
-- 🔄 API integrations
-
-### Phase 3 (Future)
-- 📋 Machine learning risk prediction
-- 📋 Advanced compliance monitoring
-- 📋 Mobile application
-- 📋 Third-party integrations
 
 ## Acknowledgments
 
